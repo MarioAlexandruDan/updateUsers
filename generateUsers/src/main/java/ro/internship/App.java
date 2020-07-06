@@ -18,6 +18,7 @@ public class App
 	}
 	
     public static void main(String[] args) throws IOException {
+    	// runs the app until every user is written to the file;
     	while(id < 100) {
     		JSONWriter.writeToJSON();
     	}

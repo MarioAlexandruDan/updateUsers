@@ -15,12 +15,13 @@ import ro.intrenship.classes.*;
 
 public class Utils {
 
+	// function that generates a random number between "start" and "end";
 	public static int randBetween(int start, int end) {
 
 		return start + (int) Math.round(Math.random() * (end - start));
 	}
 
-	// Returneaza o data de nastere generata random
+	// function that generates a random birthday date for an user;
 	private static LocalDate randomBirthday() {
 
 		GregorianCalendar gc = new GregorianCalendar();
@@ -34,8 +35,7 @@ public class Utils {
 		return birthday;
 	}
 
-	// Returneaza o lista de Users care contin numele de familie, prenumele, si data
-	// nasterii;
+	// function that returns a map of 100 Users;
 	public static Map<Integer, User> generateUsers() {
 
 		Map<Integer, User> Users = new HashMap<Integer, User>();
@@ -50,14 +50,14 @@ public class Utils {
 
 		return Users;
 	}
-
+	
+	// function that generates a list of 10 ids
 	public static ArrayList<String> generateRandomIds() {
-		Random rand = new Random();
 
 		Set<String> randomIds = new TreeSet<String>();
 		while (randomIds.size() < 10) {
 
-			int aux = rand.nextInt(100);
+			int aux = Utils.randBetween(1, 99);
 			String record = String.format("%016d", aux + 1);
 			randomIds.add(record);
 		}

@@ -13,11 +13,13 @@ import ro.internship.classes.User;
 
 public class Utils {
 
+	// function that generates a random number between "start" and "end";
 	public static int randBetween(int start, int end) {
 
 		return start + (int) Math.round(Math.random() * (end - start));
 	}
-
+	
+	// function that generates a random birthday date for an user;
 	private static LocalDate randomBirthday() {
 
 		GregorianCalendar gc = new GregorianCalendar();
@@ -31,6 +33,7 @@ public class Utils {
 		return birthday;
 	}
 
+	// function that returns a map of 100 Users;
 	public static Map<Integer, User> generateUsers() {
 
 		Map<Integer, User> Users = new HashMap<Integer, User>();
@@ -46,31 +49,4 @@ public class Utils {
 
 		return Users;
 	}
-	
-	public static Map<Integer, User> generateAnonUsers() {
-		Map<Integer, User> Users = new HashMap<Integer, User>();
-		LocalDate date = randomBirthday();
-		for (int i = 0; i < 10; i++) {
-			String record = String.format("%04d", i + 1);
-			Users.put(i, new User("John", "Doe", date, record));
-		}
-
-		return Users;
-	}
-
-	public static Set<String> generateRandomIds() {
-		Random rand = new Random();
-
-		Set<String> randomIds = new TreeSet<String>();
-		while(randomIds.size() < 11) {
-			
-			int aux = rand.nextInt(100);
-			String record = String.format("%016d", aux + 1);
-			randomIds.add(record);
-		}
-
-		
-		return randomIds;	
-	}
-
 }

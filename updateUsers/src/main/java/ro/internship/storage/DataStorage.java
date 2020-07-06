@@ -37,10 +37,12 @@ public class DataStorage {
 		return randomIds;
 	}
 	
+	// returns primary JSON object in which we upload the JSON array;
 	public static JSONObject getJSONObject() {
 		return jo;
 	}
 	
+	// returns the JSON array that's used for loading users to the JSON file;
 	public static JSONArray getJSONArray() {
 		return ja;
 	}

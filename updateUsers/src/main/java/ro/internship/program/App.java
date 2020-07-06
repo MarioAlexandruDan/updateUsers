@@ -17,6 +17,7 @@ public class App {
 
 	private volatile static int updateId = 0;
 
+	// getters used for the ids;
 	public synchronized static Map<Integer, User> getUsersToUpdate() {
 		
 		return usersToUpdate;
@@ -58,11 +59,7 @@ public class App {
 			usersToUpdate.get(i).setId(randomIds.get(i).toString());
 		}
 
-		System.out.println(Arrays.toString(randomIds.toArray()));
-		for (int i = 0; i < 10; i++) {
-			usersToUpdate.get(i).getData();
-		}
-
+		// runs the 10 threads, one for reading the data and the other one for updating 10 random users;
 		while (id < 100) {
 			
 			Thread t1 = new Thread(new ThreadReader(), "ATypeThread1");
@@ -100,5 +97,6 @@ public class App {
 			t10.start();
 			t10.join();
 		}
+		System.out.println(Arrays.toString(randomIds.toArray()));
 	}
 }

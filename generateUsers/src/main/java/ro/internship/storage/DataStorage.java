@@ -24,18 +24,17 @@ public class DataStorage {
 		return users;
 	}
 	
+	// returns primary JSON object in which we upload the JSON array;
 	public static JSONObject getJSONObject() {
 		return jo;
 	}
 	
+	// returns the JSON array that's used for loading users to the JSON file;
 	public static JSONArray getJSONArray() {
 		return ja;
 	}
 	
-	public static String getUserById(int id) {
-		return users.get(id).getId();
-	}
-	
+	// returns the directory of the JSON file;
 	public static File getJSONFile() {
 		return jsonFile;
 	}
