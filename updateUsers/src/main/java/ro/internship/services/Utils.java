@@ -45,8 +45,7 @@ public class Utils {
 
 		for (int i = 0; i < 10; i++) {
 			String record = String.format("%016d", i + 1);
-			Users.put(i, new User(record, firstName[randBetween(0, firstName.length - 1)],
-					"Popa"/* lastName[randBetween(0, lastName.length - 1)] */, randomBirthday()));
+			Users.put(i, new User(record, firstName[randBetween(0, firstName.length - 1)], lastName[randBetween(0, lastName.length - 1)], randomBirthday()));
 		}
 
 		return Users;

@@ -2,10 +2,7 @@ package ro.internship.program;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Map;
-import java.util.Set;
-
 import ro.intrenship.classes.*;
 import ro.internship.storage.DataStorage;
 import ro.internship.services.*;
@@ -30,7 +27,6 @@ public class App {
 		return randomIds;
 	}
 	
-	// Getters pentru a returna id-ul incrementat
 	public synchronized static int getNextId() {
 
 		return id++;
@@ -51,7 +47,6 @@ public class App {
 		return updateId;
 	}
 
-	// Getters pentru a returna id-ul;
 	public synchronized static int getId() {
 
 		return id;
@@ -69,14 +64,41 @@ public class App {
 		}
 
 		while (id < 100) {
-//			System.out.println(id);
+			
 			Thread t1 = new Thread(new ThreadReader(), "ATypeThread1");
 			t1.start();
 			t1.join();
+			Thread t6 = new Thread(new ThreadUpdater(), "BTypeThread1");
+			t6.start();
+			t6.join();
 			
-			Thread t2 = new Thread(new ThreadUpdater(), "BTypeThread1");
+			Thread t2 = new Thread(new ThreadReader(), "ATypeThread1");
 			t2.start();
 			t2.join();
+			Thread t7 = new Thread(new ThreadUpdater(), "BTypeThread1");
+			t7.start();
+			t7.join();
+			
+			Thread t3 = new Thread(new ThreadReader(), "ATypeThread1");
+			t3.start();
+			t3.join();
+			Thread t8 = new Thread(new ThreadUpdater(), "BTypeThread1");
+			t8.start();
+			t8.join();
+			
+			Thread t4 = new Thread(new ThreadReader(), "ATypeThread1");
+			t4.start();
+			t4.join();
+			Thread t9 = new Thread(new ThreadUpdater(), "BTypeThread1");
+			t9.start();
+			t9.join();
+			
+			Thread t5 = new Thread(new ThreadReader(), "ATypeThread1");
+			t5.start();
+			t5.join();
+			Thread t10 = new Thread(new ThreadUpdater(), "BTypeThread1");
+			t10.start();
+			t10.join();
 		}
 	}
 }
