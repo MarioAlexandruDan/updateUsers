@@ -1,5 +1,6 @@
 package ro.internship.storage;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -20,6 +21,8 @@ public class DataStorage {
 
 	private static ArrayList<String> randomIds = new ArrayList<String>(Utils.generateRandomIds());
 
+	private static File jsonFile = new File("./../UsersDB.json");
+	
 	private static JSONArray ja = new JSONArray();
 
 	public static Map<Integer, User> getUsers() {
@@ -30,6 +33,15 @@ public class DataStorage {
 	public static ArrayList<String> getRandomIds() {
 
 		return randomIds;
+	}
+	
+	public static File getJsonFile() {
+		
+		return jsonFile;
+	}
+	
+	public static void setJsonFile(File file) {
+		jsonFile = file;
 	}
 	
 	// returns primary JSON object in which we upload the JSON array;
