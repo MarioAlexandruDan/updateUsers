@@ -36,12 +36,12 @@ public class FileProcessor {
 		
 		JSONArray ja = (JSONArray) jo.get("USERS");
 		
-		JSONObject jsonUser = (JSONObject) ja.get(App.getNextUpdateId());
+		JSONObject jsonUser = (JSONObject) ja.get(App.getUpdateId());
 		
 		if (id.equals(jsonUser.get("id"))) {
 			jsonUser.put("firstName", "Andrei");
 			jsonUser.put("lastName", "Andrei");
-			
+			App.incrementUpdateId();
 		}
 	}
 	

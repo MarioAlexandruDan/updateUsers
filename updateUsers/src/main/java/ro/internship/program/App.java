@@ -12,19 +12,28 @@ import ro.internship.services.*;
 
 public class App {
 
+	public static Map<Integer, User> usersToUpdate = Utils.generateUsers();
+
+	public static ArrayList<String> randomIds = DataStorage.getRandomIds();
+
 	private volatile static int id = 0;
 
 	private volatile static int updateId = 0;
-	
+
 	// Getters pentru a returna id-ul incrementat
 	public synchronized static int getNextId() {
 
 		return id++;
 	}
-	
-	public synchronized static int getNextUpdateId() {
-		
-		return id++;
+
+	public synchronized static void incrementUpdateId() {
+
+		updateId++;
+	}
+
+	public synchronized static int getUpdateId() {
+
+		return updateId;
 	}
 
 	// Getters pentru a returna id-ul;
@@ -35,10 +44,6 @@ public class App {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		Map<Integer, User> usersToUpdate = Utils.generateUsers();
-
-		ArrayList<String> randomIds = DataStorage.getRandomIds();
-
 		for (int i = 0; i < 10; i++) {
 			usersToUpdate.get(i).setId(randomIds.get(i).toString());
 		}
@@ -47,8 +52,8 @@ public class App {
 		for (int i = 0; i < 10; i++) {
 			usersToUpdate.get(i).getData();
 		}
-		
-		while(id < 100) {
+
+		while (id < 100) {
 //			System.out.println(id);
 			Thread t1 = new Thread(new ThreadReader(), "ATypeThread1");
 			t1.start();
