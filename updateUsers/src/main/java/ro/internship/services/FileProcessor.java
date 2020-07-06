@@ -43,16 +43,12 @@ public class FileProcessor {
 		
 		if (jsonUser.get("id").equals(id)) {
 			
-			System.out.println("================");
-			App.getUsersToUpdate().get(Integer.parseInt(id)).getData();
-			System.out.println("================");
-			
-			jsonUser.put("firstName", App.getUsersToUpdate().get(Integer.parseInt(id)).getFirstName());
-			jsonUser.put("lastName", App.getUsersToUpdate().get(Integer.parseInt(id)).getLastName());
-			jsonUser.put("birthday", App.getUsersToUpdate().get(Integer.parseInt(id)).getBirthday().toString());
+			jsonUser.put("firstName", App.getUsersToUpdate().get(App.getUpdateId()).getFirstName());
+			jsonUser.put("lastName", App.getUsersToUpdate().get(App.getUpdateId()).getLastName());
+			jsonUser.put("birthday", App.getUsersToUpdate().get(App.getUpdateId()).getBirthday().toString());
 
+			
 			System.out.println(jsonUser.toJSONString());
-			System.out.println("yeet");
 			App.incrementUpdateId();
 			
 	        FileWriter file = new FileWriter("./../UsersDB.json");
