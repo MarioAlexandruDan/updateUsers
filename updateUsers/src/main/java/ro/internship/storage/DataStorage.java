@@ -1,5 +1,6 @@
 package ro.internship.storage;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -17,7 +18,7 @@ public class DataStorage {
 
 	private static JSONObject jo = new JSONObject();
 
-	private static Set<String> randomIds = new TreeSet<String>(Utils.generateRandomIds());
+	private static ArrayList<String> randomIds = new ArrayList<String>(Utils.generateRandomIds());
 
 	private static JSONArray ja = new JSONArray();
 
@@ -31,7 +32,7 @@ public class DataStorage {
 		return users.get(id).getId();
 	}
 
-	public static Set<String> getRandomIds() {
+	public static ArrayList<String> getRandomIds() {
 
 		return randomIds;
 	}

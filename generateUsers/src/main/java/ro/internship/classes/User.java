@@ -3,7 +3,6 @@ package ro.internship.classes;
 import java.time.LocalDate;
 
 public class User {
-
 	// Fields necesare pentru un user: prenume, nume si data nasterii;
 	private String firstName;
 	private String lastName;

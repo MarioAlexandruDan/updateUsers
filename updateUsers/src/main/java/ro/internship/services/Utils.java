@@ -1,7 +1,9 @@
 package ro.internship.services;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Collections;
 import java.util.GregorianCalendar;
 import java.util.HashMap;
 import java.util.Map;
@@ -38,7 +40,7 @@ public class Utils {
 
 		Map<Integer, User> Users = new HashMap<Integer, User>();
 
-		String[] firstName = { "Tilviu", "Alex", "Andreea", "Florin" };
+		String[] firstName = { "Silviu", "Alex", "Andreea", "Florin" };
 		String[] lastName = { "Popa", "Vasile", "Gheorghe", "Ilie", "Iconaru", "Ene" };
 
 		for (int i = 0; i < 10; i++) {
@@ -50,7 +52,7 @@ public class Utils {
 		return Users;
 	}
 
-	public static Set<String> generateRandomIds() {
+	public static ArrayList<String> generateRandomIds() {
 		Random rand = new Random();
 
 		Set<String> randomIds = new TreeSet<String>();
@@ -60,7 +62,10 @@ public class Utils {
 			String record = String.format("%016d", aux + 1);
 			randomIds.add(record);
 		}
+		
+		ArrayList randomIdsList = new ArrayList(randomIds);
+		Collections.sort(randomIdsList);
 
-		return randomIds;
+		return randomIdsList;
 	}
 }

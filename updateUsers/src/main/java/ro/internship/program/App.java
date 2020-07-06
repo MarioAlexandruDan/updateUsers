@@ -14,9 +14,16 @@ public class App {
 
 	private volatile static int id = 0;
 
+	private volatile static int updateId = 0;
+	
 	// Getters pentru a returna id-ul incrementat
 	public synchronized static int getNextId() {
 
+		return id++;
+	}
+	
+	public synchronized static int getNextUpdateId() {
+		
 		return id++;
 	}
 
@@ -26,25 +33,26 @@ public class App {
 		return id;
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 
-		Map<Integer, User> tenUsers = Utils.generateUsers();
+		Map<Integer, User> usersToUpdate = Utils.generateUsers();
 
-		Set<String> randomIds = DataStorage.getRandomIds();
-
-		ArrayList randomIdsList = new ArrayList(randomIds);
-
-		Collections.sort(randomIdsList);
+		ArrayList<String> randomIds = DataStorage.getRandomIds();
 
 		for (int i = 0; i < 10; i++) {
-			tenUsers.get(i).setId(randomIdsList.get(i).toString());
+			usersToUpdate.get(i).setId(randomIds.get(i).toString());
 		}
 
-		System.out.println(Arrays.toString(randomIdsList.toArray()));
-
+		System.out.println(Arrays.toString(randomIds.toArray()));
 		for (int i = 0; i < 10; i++) {
-			tenUsers.get(i).getData();
+			usersToUpdate.get(i).getData();
 		}
-
+		
+		while(id < 100) {
+//			System.out.println(id);
+			Thread t1 = new Thread(new ThreadReader(), "ATypeThread1");
+			t1.start();
+			t1.join();
+		}
 	}
 }
