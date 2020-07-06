@@ -56,11 +56,4 @@ public class User {
 
 		return birthday;
 	}
-
-	//For returning all the data form and User
-	public void getData() {
-
-		System.out.println(this.id + "{ firstName: " + this.firstName + "; lastName: " + this.lastName + "; birthday: "
-				+ this.birthday + " }");
-	}
 }

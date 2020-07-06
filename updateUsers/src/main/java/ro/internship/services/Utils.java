@@ -34,6 +34,10 @@ public class Utils {
 
 		return birthday;
 	}
+	
+	public static int addTwoNums(int x, int y) {
+		return x + y;
+	}
 
 	// function that returns a map of 100 Users;
 	public static Map<Integer, User> generateUsers() {
