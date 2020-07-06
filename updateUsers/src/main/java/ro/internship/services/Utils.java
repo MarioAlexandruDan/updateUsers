@@ -54,7 +54,7 @@ public class Utils {
 		Random rand = new Random();
 
 		Set<String> randomIds = new TreeSet<String>();
-		while (randomIds.size() < 11) {
+		while (randomIds.size() < 10) {
 
 			int aux = rand.nextInt(100);
 			String record = String.format("%016d", aux + 1);
