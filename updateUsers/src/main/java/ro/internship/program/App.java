@@ -12,18 +12,33 @@ import ro.internship.services.*;
 
 public class App {
 
-	public static Map<Integer, User> usersToUpdate = Utils.generateUsers();
+	private static Map<Integer, User> usersToUpdate = Utils.generateUsers();
 
-	public static ArrayList<String> randomIds = DataStorage.getRandomIds();
+	private static ArrayList<String> randomIds = DataStorage.getRandomIds();
 
 	private volatile static int id = 0;
 
 	private volatile static int updateId = 0;
 
+	public synchronized static Map<Integer, User> getUsersToUpdate() {
+		
+		return usersToUpdate;
+	}
+
+	public synchronized static ArrayList<String> getRandomIds() {
+		
+		return randomIds;
+	}
+	
 	// Getters pentru a returna id-ul incrementat
 	public synchronized static int getNextId() {
 
 		return id++;
+	}
+
+	public synchronized static int getNextUpdateId() {
+
+		return updateId++;
 	}
 
 	public synchronized static void incrementUpdateId() {
@@ -58,6 +73,10 @@ public class App {
 			Thread t1 = new Thread(new ThreadReader(), "ATypeThread1");
 			t1.start();
 			t1.join();
+			
+			Thread t2 = new Thread(new ThreadUpdater(), "BTypeThread1");
+			t2.start();
+			t2.join();
 		}
 	}
 }
