@@ -12,7 +12,8 @@ public class ThreadUpdater extends FileProcessor implements Runnable {
 
 	public void run() {
 		try {
-			updateJSONUser(App.getRandomIds().get(App.getUpdateId()));
+			if(App.getUpdateId() < 10)
+				updateJSONUser(App.getRandomIds().get(App.getUpdateId()));
 //			System.out.println("works");
 		} catch (FileNotFoundException e) {
 			System.out.println(e.getMessage());
