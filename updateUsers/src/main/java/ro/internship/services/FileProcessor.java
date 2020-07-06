@@ -13,6 +13,7 @@ import org.json.simple.parser.ParseException;
 
 import ro.internship.program.App;
 import ro.internship.storage.DataStorage;
+import ro.intrenship.classes.User;
 
 public class FileProcessor {
 
@@ -32,7 +33,7 @@ public class FileProcessor {
 	
 	// function for updating 10 random users and writing them back in the JSON file;
 	@SuppressWarnings("unchecked")
-	public static synchronized void updateJSONUser(String id, File file) throws FileNotFoundException, IOException, ParseException {
+	public static synchronized void updateJSONUser(String id, File file, User userToUpdate) throws FileNotFoundException, IOException, ParseException {
 		
 		Object obj = new JSONParser().parse(new FileReader(file));
 
@@ -42,9 +43,9 @@ public class FileProcessor {
 		
 		JSONObject jsonUser = (JSONObject) ja.get(App.getId());	
 		if (jsonUser.get("id").equals(id)) {
-			jsonUser.put("firstName", App.getUsersToUpdate().get(App.getUpdateId()).getFirstName());
-			jsonUser.put("lastName", App.getUsersToUpdate().get(App.getUpdateId()).getLastName());
-			jsonUser.put("birthday", App.getUsersToUpdate().get(App.getUpdateId()).getBirthday().toString());
+			jsonUser.put("firstName", userToUpdate.getFirstName());
+			jsonUser.put("lastName", userToUpdate.getLastName());
+			jsonUser.put("birthday", userToUpdate.getBirthday().toString());
 				
 			App.incrementUpdateId();
 			@SuppressWarnings("resource")
