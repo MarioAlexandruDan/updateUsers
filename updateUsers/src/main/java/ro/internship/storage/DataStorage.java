@@ -27,11 +27,6 @@ public class DataStorage {
 		return users;
 	}
 
-	public static String getUserById(int id) {
-
-		return users.get(id).getId();
-	}
-
 	public static ArrayList<String> getRandomIds() {
 
 		return randomIds;
