@@ -25,6 +25,8 @@ public class DataStorage {
 
 	private static ArrayList<String> formatedIds = new ArrayList<String>(Utils.generateFormatedIds());
 	
+	private static volatile Map<String, User> userStorage = new HashMap<String, User>();
+	
 	public static ArrayList<String> getFormatedIds() {
 		return formatedIds;
 	}
@@ -32,6 +34,11 @@ public class DataStorage {
 	public static Map<Integer, User> getUsers() {
 
 		return users;
+	}
+	
+	public static Map<String, User> getUserStorage() {
+		
+		return userStorage;
 	}
 
 	public static ArrayList<String> getRandomIds() {

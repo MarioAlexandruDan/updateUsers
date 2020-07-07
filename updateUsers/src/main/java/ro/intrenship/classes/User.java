@@ -18,6 +18,14 @@ public class User {
 		this.birthday = birthday;
 	}
 	
+	public User() {
+		
+		this.id = "undefined";
+		this.firstName = "undefined";
+		this.lastName = "undefined";
+		this.birthday = LocalDate.now();
+	}
+	
 	public void setId(String id) {
 
 		this.id = id;
@@ -39,7 +47,7 @@ public class User {
 	}
 
 	public String getId() {
-
+		
 		return id;
 	}
 
