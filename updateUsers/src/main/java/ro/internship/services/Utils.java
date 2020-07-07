@@ -1,5 +1,6 @@
 package ro.internship.services;
 
+import java.awt.List;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -67,4 +68,11 @@ public class Utils {
 
 		return randomIdsList;
 	}
+	
+	public static void generateFormatedIds(ArrayList<String> ids) {
+		for(int i = 0; i < 100; i++) {
+			ids.add(String.format("%016d", i + 1));
+		}
+	}
+	
 }

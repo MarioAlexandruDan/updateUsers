@@ -61,13 +61,6 @@ public class User {
 
   @Override
   public String toString() {
-    return this.id
-        + "{ firstName: "
-        + this.firstName
-        + "; lastName: "
-        + this.lastName
-        + "; birthday: "
-        + this.birthday
-        + " }";
+    return "\"" + this.id + "\"" + ":{\"firstName\":" + this.firstName + ",\"lastName\":" + this.lastName + ",\"birthday\":" + this.birthday + "}";
   }
 }

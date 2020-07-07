@@ -15,6 +15,10 @@ public class App {
     id++;
     return id;
   }
+  
+  public static synchronized void incId() {
+	  id++;
+  }
 
   public static void main(String[] args) throws IOException {
 

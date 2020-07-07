@@ -4,8 +4,6 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
-import java.util.TreeSet;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -25,6 +23,12 @@ public class DataStorage {
 	
 	private static JSONArray ja = new JSONArray();
 
+	private static ArrayList<String> formatedIds = new ArrayList<String>();
+	
+	public static ArrayList<String> getFormatedIds() {
+		return formatedIds;
+	}
+	
 	public static Map<Integer, User> getUsers() {
 
 		return users;

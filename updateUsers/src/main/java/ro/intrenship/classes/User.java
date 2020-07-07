@@ -1,6 +1,7 @@
 package ro.intrenship.classes;
 
 import java.time.LocalDate;
+import java.time.Month;
 
 public class User {
 
@@ -17,6 +18,14 @@ public class User {
 		this.birthday = birthday;
 	}
 
+	public User() {
+
+		this.id = "undefined";
+		this.firstName = "undefined";
+		this.lastName = "undefined";
+		this.birthday = LocalDate.of(1900, Month.DECEMBER, 16);
+	}
+	
 	public void setId(String id) {
 
 		this.id = id;
