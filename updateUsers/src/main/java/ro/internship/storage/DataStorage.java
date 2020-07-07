@@ -23,7 +23,7 @@ public class DataStorage {
 	
 	private static JSONArray ja = new JSONArray();
 
-	private static ArrayList<String> formatedIds = new ArrayList<String>();
+	private static ArrayList<String> formatedIds = new ArrayList<String>(Utils.generateFormatedIds());
 	
 	public static ArrayList<String> getFormatedIds() {
 		return formatedIds;

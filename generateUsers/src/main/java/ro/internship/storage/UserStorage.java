@@ -25,7 +25,7 @@ public class UserStorage {
     ObjectMapper objectMapper = new ObjectMapper();
     try {
 
-      return objectMapper.writeValueAsString(userStorage);
+      return objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(userStorage);
 
     } catch (JsonProcessingException e) {
 

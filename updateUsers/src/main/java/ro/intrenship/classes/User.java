@@ -17,14 +17,6 @@ public class User {
 		this.lastName = lastName;
 		this.birthday = birthday;
 	}
-
-	public User() {
-
-		this.id = "undefined";
-		this.firstName = "undefined";
-		this.lastName = "undefined";
-		this.birthday = LocalDate.of(1900, Month.DECEMBER, 16);
-	}
 	
 	public void setId(String id) {
 
@@ -65,4 +57,8 @@ public class User {
 
 		return birthday;
 	}
+	  @Override
+	  public String toString() {
+	    return "\"" + this.id + "\"" + ":{\"firstName\":" + this.firstName + ",\"lastName\":" + this.lastName + ",\"birthday\":" + this.birthday + "}";
+	  }
 }

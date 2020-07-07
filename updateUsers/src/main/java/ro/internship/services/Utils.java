@@ -36,12 +36,11 @@ public class Utils {
 		return birthday;
 	}
 
-	// function that returns a map of 100 Users;
 	public static Map<Integer, User> generateUsers() {
 
 		Map<Integer, User> Users = new HashMap<Integer, User>();
 
-		String[] firstName = { "Silviu", "Alex", "Andreea", "Florin" };
+		String[] firstName = { "Andrei", "Alex", "Andreea", "Florin" };
 		String[] lastName = { "Popa", "Vasile", "Gheorghe", "Ilie", "Iconaru", "Ene" };
 
 		for (int i = 0; i < 10; i++) {
@@ -59,7 +58,7 @@ public class Utils {
 		while (randomIds.size() < 10) {
 
 			int aux = Utils.randBetween(1, 99);
-			String record = String.format("%016d", aux + 1);
+			String record = String.format("%016d", aux);
 			randomIds.add(record);
 		}
 		
@@ -69,10 +68,12 @@ public class Utils {
 		return randomIdsList;
 	}
 	
-	public static void generateFormatedIds(ArrayList<String> ids) {
+	public static ArrayList<String> generateFormatedIds() {
+		ArrayList<String> ids = new ArrayList<String>();
 		for(int i = 0; i < 100; i++) {
-			ids.add(String.format("%016d", i + 1));
+			ids.add(String.format("%016d", i));
 		}
+		return ids;
 	}
 	
 }
