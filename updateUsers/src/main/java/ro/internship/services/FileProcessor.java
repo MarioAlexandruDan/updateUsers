@@ -11,6 +11,8 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 import ro.internship.program.App;
 import ro.internship.storage.DataStorage;
 import ro.intrenship.classes.User;
@@ -34,6 +36,8 @@ public class FileProcessor {
 	// function for updating 10 random users and writing them back in the JSON file;
 	@SuppressWarnings("unchecked")
 	public static synchronized void updateJSONUser(String id, File file, User userToUpdate) throws FileNotFoundException, IOException, ParseException {
+		
+	    ObjectMapper objectMapper = new ObjectMapper();
 		
 		Object obj = new JSONParser().parse(new FileReader(file));
 
