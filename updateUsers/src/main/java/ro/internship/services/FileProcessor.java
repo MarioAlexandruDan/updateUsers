@@ -29,14 +29,14 @@ import ro.internship.storage.DataStorage;
 public class FileProcessor {
 
 	// function for reading data from the JSON file;
-	public static synchronized void readFromJSON(int id, File file, ArrayList<String> idList, int count) throws IOException, ParseException {
+	public static synchronized void readFromJSON(int id, File file, int count) throws IOException, ParseException {
 		try {
 		    ObjectMapper objectMapper = new ObjectMapper();
 		    JsonNode usr = objectMapper.readTree(DataStorage.getJsonFile()).get(DataStorage.getFormatedIds().get(id));		
 		    
 //		    JsonNode node = objectMapper.readTree(DataStorage.getJsonFile());
 		    
-		    String month = "";
+		    String month = null;
 		    DateFormatSymbols dfs = new DateFormatSymbols();
 		    String[] months = dfs.getMonths();
 		    int m = Integer.parseInt(usr.get("birthday").get("monthValue").toString());
@@ -58,7 +58,7 @@ public class FileProcessor {
 //		    System.out.println(DataStorage.getUserStorage().get(id).toString());
 		    
 		} catch(Exception e) {
-			System.out.println("ERROR =========> " + e.getMessage());
+			e.getStackTrace();
 		}
 	}
 	/*
