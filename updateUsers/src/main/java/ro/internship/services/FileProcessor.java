@@ -29,7 +29,7 @@ import ro.internship.storage.DataStorage;
 public class FileProcessor {
 
 	// function for reading data from the JSON file;
-	public static synchronized void readFromJSON(int id, File file, int count) throws IOException, ParseException {
+	public static synchronized void readFromJSON(int id, File file, int count, User userToUpdate) throws IOException, ParseException {
 		try {
 		    ObjectMapper objectMapper = new ObjectMapper();
 		    JsonNode usr = objectMapper.readTree(DataStorage.getJsonFile()).get(DataStorage.getFormatedIds().get(id));
@@ -44,23 +44,20 @@ public class FileProcessor {
 		        month = months[m-1];
 		    }
 		    month = month.toUpperCase();
-
+		    
 		    User jsonUser = new User(usr.get("id").toString(), usr.get("firstName").toString(), usr.get("lastName").toString(), LocalDate.of(Integer.parseInt(usr.get("birthday").get("year").toString()), Month.valueOf(month), Integer.parseInt(usr.get("birthday").get("dayOfMonth").toString())));
 		    jsonUser.setId(jsonUser.getId().replaceAll("\"", ""));
 		    DataStorage.getUserStorage().put(jsonUser.getId(), jsonUser);
 		    
 		    if(jsonUser.getId().equals(App.getRandomIds().get(App.getUpdateId()).toString())) {
-//                System.out.println("merge");
-                jsonUser.setFirstName(App.getUsersToUpdate().get(App.getUpdateId()).getFirstName());
-                jsonUser.setLastName(App.getUsersToUpdate().get(App.getUpdateId()).getLastName());
-                jsonUser.setBirthday(App.getUsersToUpdate().get(App.getUpdateId()).getBirthday());
+                System.out.println("merge");
+                jsonUser.setFirstName(userToUpdate.getFirstName());
+                jsonUser.setLastName(userToUpdate.getLastName());
+                jsonUser.setBirthday(userToUpdate.getBirthday());
     		    App.incrementUpdateId();
             }
 		    System.out.println(jsonUser.toString());
-
 		    
-		    
-
 		} catch(Exception e) {
 			e.getStackTrace();
 		}

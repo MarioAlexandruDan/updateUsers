@@ -28,17 +28,17 @@ public class DataStorage {
 		return formatedIds;
 	}
 	
-	public static Map<Integer, User> getUsers() {
+	public static synchronized Map<Integer, User> getUsers() {
 
 		return users;
 	}
 	
-	public static Map<String, User> getUserStorage() {
+	public static synchronized Map<String, User> getUserStorage() {
 		
 		return userStorage;
 	}
 
-	public static ArrayList<String> getRandomIds() {
+	public static synchronized ArrayList<String> getRandomIds() {
 
 		return randomIds;
 	}

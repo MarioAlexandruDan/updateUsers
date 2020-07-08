@@ -63,15 +63,15 @@ public class App {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		for (int i = 0; i < 10; i++) {
-			usersToUpdate.get(i).setId(randomIds.get(i).toString());
-		}
+//		for (int i = 0; i < 10; i++) {
+//			usersToUpdate.get(i).setId(randomIds.get(i).toString());
+//		}
 		
 		while (id < 100) {
 			
 			Thread t1 = new Thread(new ThreadReader(count), "ATypeThread1");
 			t1.start();
-
+			
 			Thread t2 = new Thread(new ThreadReader(count), "ATypeThread2");
 			t2.start();
 			
@@ -100,7 +100,7 @@ public class App {
 			t10.start();
 		}
 
-		System.out.println(getUsersToUpdate().toString());
+		System.out.println(getRandomIds());
 //		System.out.println(Arrays.toString(randomIds.toArray()));
 	}
 }

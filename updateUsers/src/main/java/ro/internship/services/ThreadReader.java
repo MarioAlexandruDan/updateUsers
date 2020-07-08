@@ -15,10 +15,11 @@ public class ThreadReader extends Thread{
 	public void run() {
 
 		try {
-			FileProcessor.readFromJSON(App.getNextId(), DataStorage.getJsonFile(), count);
+			FileProcessor.readFromJSON(App.getNextId(), DataStorage.getJsonFile(), count, App.getUsersToUpdate().get(App.getUpdateId()));
 		} catch (Exception e) {
-			System.out.println("================== ERROR ==================");
-			System.out.println(e.getMessage());
+//			System.out.println("================== ERROR ==================");
+//			System.out.println(e.getMessage());
+			e.getStackTrace();
 		}
 	}
 
