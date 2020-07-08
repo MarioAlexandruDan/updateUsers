@@ -29,7 +29,7 @@ import ro.internship.storage.DataStorage;
 public class FileProcessor {
 
 	// function for reading data from the JSON file;
-	public static synchronized void readFromJSON(int id, File file, int count, User userToUpdate) throws IOException, ParseException {
+	public static synchronized void readFromJSON(int id, File file, int count) throws IOException, ParseException {
 		try {
 		    ObjectMapper objectMapper = new ObjectMapper();
 		    JsonNode usr = objectMapper.readTree(DataStorage.getJsonFile()).get(DataStorage.getFormatedIds().get(id));
@@ -46,69 +46,21 @@ public class FileProcessor {
 		    month = month.toUpperCase();
 
 		    User jsonUser = new User(usr.get("id").toString(), usr.get("firstName").toString(), usr.get("lastName").toString(), LocalDate.of(Integer.parseInt(usr.get("birthday").get("year").toString()), Month.valueOf(month), Integer.parseInt(usr.get("birthday").get("dayOfMonth").toString())));
-		    jsonUser.setId(jsonUser.getId().replaceAll("\"", ""));		    
+		    jsonUser.setId(jsonUser.getId().replaceAll("\"", ""));
+		    DataStorage.getUserStorage().put(jsonUser.getId(), jsonUser);
 		    
-//		    int i = 0;
-//		    for(int i = 0; i < DataStorage.getRandomIds().size(); i++) {
-//		    	
-//		    	if (jsonUser.getId().equals(DataStorage.getRandomIds().get(i))) {
-//		    		User tempUser = new User(jsonUser.getId(), userToUpdate.getFirstName(), userToUpdate.getLastName(), userToUpdate.getBirthday(), count);
-//		    		DataStorage.getUserStorage().put(tempUser.getId(), tempUser);
-//		    		System.out.println("worked");
-//		    		System.out.println(tempUser.toString());
-//		    		break;
-//		    	} else {
-//		    		DataStorage.getUserStorage().put(jsonUser.getId(), jsonUser);
-//		    		System.out.println(jsonUser.toString());
-//		    	}
-//		    }
-//		    
-	    	
-
-		    
-		    int i = 0, k = 0;
-		    while (i < DataStorage.getRandomIds().size() && k == 0) {
-			    if (jsonUser.getId().equals(DataStorage.getRandomIds().get(i))) {
-			    	
-			    	User tempUser = new User(jsonUser.getId(), userToUpdate.getFirstName(), userToUpdate.getLastName(), userToUpdate.getBirthday(), App.getNextCount());
-			    	DataStorage.getUserStorage().replace(jsonUser.getId(), tempUser);
-			    	System.out.println(tempUser.toString());
-
-			    	k = 1;
-			    } else {
-			    	i++;
-			    }
-		    }
-		    
-		    if (k == 0) {
-		    	
-			    DataStorage.getUserStorage().put(jsonUser.getId(), jsonUser);
-		    	System.out.println(jsonUser.toString());		    	
-		    }
-		    
-		    App.incrementUpdateId();
+		    if(jsonUser.getId().equals(App.getRandomIds().get(App.getUpdateId()).toString())) {
+//                System.out.println("merge");
+                jsonUser.setFirstName(App.getUsersToUpdate().get(App.getUpdateId()).getFirstName());
+                jsonUser.setLastName(App.getUsersToUpdate().get(App.getUpdateId()).getLastName());
+                jsonUser.setBirthday(App.getUsersToUpdate().get(App.getUpdateId()).getBirthday());
+    		    App.incrementUpdateId();
+            }
+		    System.out.println(jsonUser.toString());
 
 		    
 		    
-		    
-//		    
-//		    if (Integer.parseInt(jsonUser.getId()) == id) {
-//		    	
-//
-//		        
-//			}
-		    
-		    
-		    
-		    
-//		    System.out.println(DataStorage.getUserStorage().get(jsonUser.getId()).toString());
-		    
-//		    InputStream fileInputStream = new FileInputStream(DataStorage.getJsonFile());
-//		    User user = objectMapper.readValue(fileInputStream, User.class);
-//		    fileInputStream.close();
-		    
-//		    System.out.println(DataStorage.getUserStorage().get(id).toString());
-		    
+
 		} catch(Exception e) {
 			e.getStackTrace();
 		}

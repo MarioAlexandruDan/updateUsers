@@ -24,7 +24,7 @@ public class App {
 
     // runs the app until every user is written to the file;
     while (true) {
-
+    	
       // gets a user from the main users collection;
       User tempUser = Utils.generateUser(getId());
 
