@@ -29,14 +29,12 @@ import ro.internship.storage.DataStorage;
 public class FileProcessor {
 
 	// function for reading data from the JSON file;
-	public static synchronized void readFromJSON(int id, File file, ArrayList<String> idList) throws IOException, ParseException {
+	public static synchronized void readFromJSON(int id, File file, ArrayList<String> idList, int count) throws IOException, ParseException {
 		try {
 		    ObjectMapper objectMapper = new ObjectMapper();
 		    JsonNode usr = objectMapper.readTree(DataStorage.getJsonFile()).get(DataStorage.getFormatedIds().get(id));		
 		    
-		    JsonNode node = objectMapper.readTree(DataStorage.getJsonFile());
-		    
-		    System.out.println(usr.toString());
+//		    JsonNode node = objectMapper.readTree(DataStorage.getJsonFile());
 		    
 		    String month = "";
 		    DateFormatSymbols dfs = new DateFormatSymbols();
@@ -48,32 +46,22 @@ public class FileProcessor {
 		    month = month.toUpperCase();
 		    
 		    User jsonUser = new User(usr.get("id").toString(), usr.get("firstName").toString(), usr.get("lastName").toString(), LocalDate.of(Integer.parseInt(usr.get("birthday").get("year").toString()), Month.valueOf(month), Integer.parseInt(usr.get("birthday").get("dayOfMonth").toString())));
-		    jsonUser.setId(jsonUser.getId().replaceAll("\"", ""));
-		    
+		    jsonUser.setId(jsonUser.getId().replaceAll("\"", ""));		    
 		    DataStorage.getUserStorage().put(jsonUser.getId(), jsonUser);
 		    
-//		    String month = "";
-//		    DateFormatSymbols dfs = new DateFormatSymbols();
-//		    String[] months = dfs.getMonths();
-//		    int m = Integer.parseInt(usr.get("birthday").get("monthValue").toString());
-//		    if (m >= 1 && m <= 12 ) {
-//		        month = months[m-1];
-//		    }
-//		    month = month.toUpperCase();
-//		    
-//		    User jsonUser = new User(usr.get("id").toString(), usr.get("firstName").toString(), usr.get("lastName").toString(), LocalDate.of(Integer.parseInt(usr.get("birthday").get("year").toString()), Month.valueOf(month), Integer.parseInt(usr.get("birthday").get("dayOfMonth").toString())));
-//		    jsonUser.setId(jsonUser.getId().replaceAll("\"", ""));
-
-//		    System.out.println(usr);
-
+		    System.out.println(DataStorage.getUserStorage().get(jsonUser.getId()).toString());
+		    
 //		    InputStream fileInputStream = new FileInputStream(DataStorage.getJsonFile());
 //		    User user = objectMapper.readValue(fileInputStream, User.class);
 //		    fileInputStream.close();
+		    
+//		    System.out.println(DataStorage.getUserStorage().get(id).toString());
+		    
 		} catch(Exception e) {
-			System.out.println(e.getMessage());
+			System.out.println("ERROR =========> " + e.getMessage());
 		}
 	}
-	
+	/*
 	// function for updating 10 random users and writing them back in the JSON file;
 	public static synchronized void updateJSONUser(String id, File file, User userToUpdate) throws FileNotFoundException, IOException, ParseException {
 		
@@ -103,17 +91,16 @@ public class FileProcessor {
 	    	jsonUser.setLastName(userToUpdate.getLastName());
 	    	System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" + jsonUser.toString());
 
+	    	App.incrementUpdateId();
 			@SuppressWarnings("resource")
 			FileWriter fileW = new FileWriter(file);
 	    	DataStorage.getUserStorage().replace(jsonUser.getId(), jsonUser);
 			fileW.write(objectMapper.writeValueAsString(DataStorage.getUserStorage()));
 	        fileW.flush();
-	    	
 	        
-	    	App.incrementUpdateId();
 		}
 
 //	    System.out.println(usr.get("id").toString());
 //	    System.out.println(Month.valueOf(usr.get("birthday").get("month").toString()));
-	}
+	} */
 }

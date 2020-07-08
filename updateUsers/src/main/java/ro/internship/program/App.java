@@ -60,47 +60,44 @@ public class App {
 			usersToUpdate.get(i).setId(randomIds.get(i).toString());
 		}
 
-//		Utils.generateFormatedIds(DataStorage.getFormatedIds());
-
-//		 runs the 10 threads, one for reading the data and the other one for updating 10 random users;
+		int count = 1;
+		
 		while (id < 100) {
 			
-			Thread t1 = new Thread(new ThreadReader(), "ATypeThread1");
+			Thread t1 = new Thread(new ThreadReader(count), "ATypeThread1");
 			t1.start();
-			t1.join();
-			Thread t6 = new Thread(new ThreadUpdater(), "BTypeThread1");
+
+			Thread t2 = new Thread(new ThreadReader(count), "ATypeThread2");
+			t2.start();
+			
+			Thread t3 = new Thread(new ThreadReader(count), "ATypeThread3");
+			t3.start();			
+			
+			Thread t4 = new Thread(new ThreadReader(count), "ATypeThread4");
+			t4.start();
+
+			Thread t5 = new Thread(new ThreadReader(count), "ATypeThread5");
+			t5.start();
+			
+			Thread t6 = new Thread(new ThreadReader(count), "ATypeThread6");
 			t6.start();
-			t6.join();
-//			
-//			Thread t2 = new Thread(new ThreadReader(), "ATypeThread1");
-//			t2.start();
-//			t2.join();
-//			Thread t7 = new Thread(new ThreadUpdater(), "BTypeThread1");
-//			t7.start();
-//			t7.join();
-//			
-//			Thread t3 = new Thread(new ThreadReader(), "ATypeThread1");
-//			t3.start();
-//			t3.join();
-//			Thread t8 = new Thread(new ThreadUpdater(), "BTypeThread1");
-//			t8.start();
-//			t8.join();
-//			
-//			Thread t4 = new Thread(new ThreadReader(), "ATypeThread1");
-//			t4.start();
-//			t4.join();
-//			Thread t9 = new Thread(new ThreadUpdater(), "BTypeThread1");
-//			t9.start();
-//			t9.join();
-//			
-//			Thread t5 = new Thread(new ThreadReader(), "ATypeThread1");
-//			t5.start();
-//			t5.join();
-//			Thread t10 = new Thread(new ThreadUpdater(), "BTypeThread1");
-//			t10.start();
-//			t10.join();
+
+			Thread t7 = new Thread(new ThreadReader(count), "ATypeThread7");
+			t7.start();
+			
+			Thread t8 = new Thread(new ThreadReader(count), "ATypeThread8");
+			t8.start();
+			
+			Thread t9 = new Thread(new ThreadReader(count), "ATypeThread9");
+			t9.start();
+
+			Thread t10 = new Thread(new ThreadReader(count), "ATypeThread10");
+			t10.start();
 		}
-		System.out.println(DataStorage.getUserStorage().toString());
-		System.out.println(Arrays.toString(randomIds.toArray()));
+		
+
+
+//		System.out.println(DataStorage.getUserStorage().toString());
+//		System.out.println(Arrays.toString(randomIds.toArray()));
 	}
 }

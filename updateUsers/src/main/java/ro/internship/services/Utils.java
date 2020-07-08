@@ -71,7 +71,7 @@ public class Utils {
 	public static ArrayList<String> generateFormatedIds() {
 		ArrayList<String> ids = new ArrayList<String>();
 		for(int i = 0; i < 100; i++) {
-			ids.add(String.format("%016d", i));
+			ids.add(String.format("%016d", i + 1));
 		}
 		return ids;
 	}
