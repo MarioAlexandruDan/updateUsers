@@ -10,6 +10,8 @@ import ro.internship.services.*;
 
 public class App {
 
+	private static int count = 1;
+	
 	private static Map<Integer, User> usersToUpdate = Utils.generateUsers();
 
 	private static ArrayList<String> randomIds = DataStorage.getRandomIds();
@@ -24,6 +26,11 @@ public class App {
 		return usersToUpdate;
 	}
 
+	public synchronized static int getNextCount() {
+		
+		return count++;
+	}
+	
 	public synchronized static ArrayList<String> getRandomIds() {
 		
 		return randomIds;
@@ -59,8 +66,6 @@ public class App {
 		for (int i = 0; i < 10; i++) {
 			usersToUpdate.get(i).setId(randomIds.get(i).toString());
 		}
-
-		int count = 1;
 		
 		while (id < 100) {
 			
@@ -71,7 +76,7 @@ public class App {
 			t2.start();
 			
 			Thread t3 = new Thread(new ThreadReader(count), "ATypeThread3");
-			t3.start();			
+			t3.start();
 			
 			Thread t4 = new Thread(new ThreadReader(count), "ATypeThread4");
 			t4.start();
@@ -94,8 +99,6 @@ public class App {
 			Thread t10 = new Thread(new ThreadReader(count), "ATypeThread10");
 			t10.start();
 		}
-		
-
 
 //		System.out.println(DataStorage.getUserStorage().toString());
 //		System.out.println(Arrays.toString(randomIds.toArray()));

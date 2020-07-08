@@ -9,7 +9,18 @@ public class User {
 	private String firstName;
 	private String lastName;
 	private LocalDate birthday;
+	private int count = -1;
 
+	public User(String id, String firstName, String lastName, LocalDate birthday, int count) {
+
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.birthday = birthday;
+		this.count = count;
+	}
+
+	
 	public User(String id, String firstName, String lastName, LocalDate birthday) {
 
 		this.id = id;
@@ -67,6 +78,16 @@ public class User {
 	}
 	  @Override
 	  public String toString() {
-	    return "\"" + this.id + "\"" + ":{\"firstName\":" + this.firstName + ",\"lastName\":" + this.lastName + ",\"birthday\":" + this.birthday + "}";
+	    return "\"" + this.id + "\"" + ":{\"firstName\":" + this.firstName + ",\"lastName\":" + this.lastName + ",\"birthday\":" + this.birthday + ",\"count\":" + this.count + "}";
 	  }
+
+
+	public int getCount() {
+		return count;
+	}
+
+
+	public void setCount(int count) {
+		this.count = count;
+	}
 }
