@@ -16,8 +16,8 @@ import org.json.simple.parser.ParseException;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.contrib.java.lang.system.SystemOutRule;
-import ro.intrenship.classes.User;
 
+import ro.internship.classes.User;
 import ro.internship.storage.DataStorage;
 import static org.junit.Assert.*;
 

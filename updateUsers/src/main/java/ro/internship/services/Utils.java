@@ -12,7 +12,7 @@ import java.util.Random;
 import java.util.Set;
 import java.util.TreeSet;
 
-import ro.intrenship.classes.*;
+import ro.internship.classes.*;
 
 public class Utils {
 

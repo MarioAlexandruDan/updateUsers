@@ -1,4 +1,4 @@
-package ro.intrenship.classes;
+package ro.internship.classes;
 
 import java.time.LocalDate;
 import java.time.Month;

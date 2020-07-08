@@ -22,9 +22,9 @@ import org.json.simple.parser.ParseException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import ro.internship.classes.User;
 import ro.internship.program.App;
 import ro.internship.storage.DataStorage;
-import ro.intrenship.classes.User;
 
 public class FileProcessor {
 

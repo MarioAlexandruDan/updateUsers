@@ -8,8 +8,8 @@ import java.util.Map;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
+import ro.internship.classes.*;
 import ro.internship.services.*;
-import ro.intrenship.classes.*;
 
 public class DataStorage {
 
