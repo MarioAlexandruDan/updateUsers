@@ -32,7 +32,7 @@ public class FileProcessor {
 	public static synchronized void readFromJSON(int id, File file, int count, User userToUpdate) throws IOException, ParseException {
 		try {
 		    ObjectMapper objectMapper = new ObjectMapper();
-		    JsonNode usr = objectMapper.readTree(DataStorage.getJsonFile()).get(DataStorage.getFormatedIds().get(id));		
+		    JsonNode usr = objectMapper.readTree(DataStorage.getJsonFile()).get(DataStorage.getFormatedIds().get(id));
 		    
 //		    JsonNode node = objectMapper.readTree(DataStorage.getJsonFile());
 		    
@@ -47,19 +47,33 @@ public class FileProcessor {
 
 		    User jsonUser = new User(usr.get("id").toString(), usr.get("firstName").toString(), usr.get("lastName").toString(), LocalDate.of(Integer.parseInt(usr.get("birthday").get("year").toString()), Month.valueOf(month), Integer.parseInt(usr.get("birthday").get("dayOfMonth").toString())));
 		    jsonUser.setId(jsonUser.getId().replaceAll("\"", ""));		    
+		    
+//		    int i = 0;
+//		    for(int i = 0; i < DataStorage.getRandomIds().size(); i++) {
+//		    	
+//		    	if (jsonUser.getId().equals(DataStorage.getRandomIds().get(i))) {
+//		    		User tempUser = new User(jsonUser.getId(), userToUpdate.getFirstName(), userToUpdate.getLastName(), userToUpdate.getBirthday(), count);
+//		    		DataStorage.getUserStorage().put(tempUser.getId(), tempUser);
+//		    		System.out.println("worked");
+//		    		System.out.println(tempUser.toString());
+//		    		break;
+//		    	} else {
+//		    		DataStorage.getUserStorage().put(jsonUser.getId(), jsonUser);
+//		    		System.out.println(jsonUser.toString());
+//		    	}
+//		    }
+//		    
+	    	
 
+		    
 		    int i = 0, k = 0;
 		    while (i < DataStorage.getRandomIds().size() && k == 0) {
 			    if (jsonUser.getId().equals(DataStorage.getRandomIds().get(i))) {
 			    	
 			    	User tempUser = new User(jsonUser.getId(), userToUpdate.getFirstName(), userToUpdate.getLastName(), userToUpdate.getBirthday(), App.getNextCount());
-			    	DataStorage.getUserStorage().put(tempUser.getId(), tempUser);
-
+			    	DataStorage.getUserStorage().replace(jsonUser.getId(), tempUser);
 			    	System.out.println(tempUser.toString());
 
-			    	System.out.println(App.getUpdateId());
-			    	App.incrementUpdateId();
-			    	
 			    	k = 1;
 			    } else {
 			    	i++;
@@ -69,25 +83,20 @@ public class FileProcessor {
 		    if (k == 0) {
 		    	
 			    DataStorage.getUserStorage().put(jsonUser.getId(), jsonUser);
-//		    	System.out.println(jsonUser.toString());		    	
+		    	System.out.println(jsonUser.toString());		    	
 		    }
 		    
-		    if (Integer.parseInt(jsonUser.getId()) == id) {
-		    	
+		    App.incrementUpdateId();
 
-		        
-			}
 		    
-//		    for(int i = 0; i < DataStorage.getRandomIds().size(); i++) {
-//		    	if (jsonUser.getId().equals(DataStorage.getRandomIds().get(i))) {
-//		    		User tempUser = new User(jsonUser.getId(), jsonUser.getFirstName(), jsonUser.getLastName(), jsonUser.getBirthday(), count);
-//		    		DataStorage.getUserStorage().put(tempUser.getId(), tempUser);
-//		    		System.out.println(tempUser.toString());
-//		    	} else {
-//		    		DataStorage.getUserStorage().put(jsonUser.getId(), jsonUser);
-//		    		System.out.println(jsonUser.toString());
-//		    	}
-//		    }
+		    
+		    
+//		    
+//		    if (Integer.parseInt(jsonUser.getId()) == id) {
+//		    	
+//
+//		        
+//			}
 		    
 		    
 		    

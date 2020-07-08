@@ -100,7 +100,7 @@ public class App {
 			t10.start();
 		}
 
-//		System.out.println(DataStorage.getUserStorage().toString());
+		System.out.println(getUsersToUpdate().toString());
 //		System.out.println(Arrays.toString(randomIds.toArray()));
 	}
 }
