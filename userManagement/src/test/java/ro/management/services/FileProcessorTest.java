@@ -10,7 +10,7 @@ import java.util.Scanner;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class FileProcessorTest {
+public class FileProcessorTest {
 
 	// creating the needed fields;
 	FileProcessor test;

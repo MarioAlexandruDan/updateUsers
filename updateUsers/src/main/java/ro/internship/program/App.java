@@ -10,12 +10,6 @@ public class App {
     // Load storage at app start
     UserStorage.loadStorage();
 
-    // create users
-//        List<User> myInitialData = Utils.generateUsers(5);
-//        for (User user : myInitialData) {
-//          UserStorage.setRecord(user);
-//        }
-
     // start the game
     Thread t1 = new ThreadUserUpdate(1, 5);
     t1.start();
@@ -26,7 +20,7 @@ public class App {
 
     Thread.sleep(1000);
 
-    //
+    // Save the storage when the app is finished
     UserStorage.saveStorage();
   }
 }

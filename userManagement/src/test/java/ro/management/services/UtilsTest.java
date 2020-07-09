@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 
 import ro.management.classes.User;
 
-class UtilsTest {
+public class UtilsTest {
 
 	// creating the needed fields;
 	Integer id;
