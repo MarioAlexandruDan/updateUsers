@@ -8,7 +8,7 @@ public class UserFileWritter {
 
   private static File jsonFile = new File("./../UsersDB.json");
 
-  public static void writeToJSON(String textToWrite) throws FileNotFoundException {
+  public static void writeStringToFile(String textToWrite) throws FileNotFoundException {
 
     // actually printing to the file;
     PrintWriter pw = new PrintWriter(jsonFile);

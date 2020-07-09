@@ -1,93 +1,88 @@
 package ro.internship.classes;
 
-import java.time.LocalDate;
-import java.time.Month;
-
 public class User {
 
-	private String id;
-	private String firstName;
-	private String lastName;
-	private LocalDate birthday;
-	private int count = -1;
+  private Integer id;
+  private String firstName;
+  private String lastName;
+  private String birthday;
+  private Integer totalAmount;
 
-	public User(String id, String firstName, String lastName, LocalDate birthday, int count) {
+  public User() {}
 
-		this.id = id;
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.birthday = birthday;
-		this.count = count;
-	}
+  public User(Integer id, String firstName, String lastName, String birthday, Integer totalAmount) {
 
-	
-	public User(String id, String firstName, String lastName, LocalDate birthday) {
+    this.id = id;
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.birthday = birthday;
+    this.totalAmount = totalAmount;
+  }
 
-		this.id = id;
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.birthday = birthday;
-	}
-	
-	public User() {
-		
-		this.id = "undefined";
-		this.firstName = "undefined";
-		this.lastName = "undefined";
-		this.birthday = LocalDate.now();
-	}
-	
-	public void setId(String id) {
+  public void setId(Integer id) {
 
-		this.id = id;
-	}
+    this.id = id;
+  }
 
-	public void setFirstName(String firstName) {
+  public void setFirstName(String firstName) {
 
-		this.firstName = firstName;
-	}
+    this.firstName = firstName;
+  }
 
-	public void setLastName(String lastName) {
+  public void setLastName(String lastName) {
 
-		this.lastName = lastName;
-	}
+    this.lastName = lastName;
+  }
 
-	public void setBirthday(LocalDate birthday) {
+  public void setBirthday(String birthday) {
 
-		this.birthday = birthday;
-	}
+    this.birthday = birthday;
+  }
 
-	public String getId() {
-		
-		return id;
-	}
+  public Integer getId() {
 
-	public String getFirstName() {
+    return id;
+  }
 
-		return firstName;
-	}
+  public String getFirstName() {
 
-	public String getLastName() {
+    return firstName;
+  }
 
-		return lastName;
-	}
+  public String getLastName() {
 
-	public LocalDate getBirthday() {
+    return lastName;
+  }
 
-		return birthday;
-	}
-	  @Override
-	  public String toString() {
-	    return "\"" + this.id + "\"" + ":{\"firstName\":" + this.firstName + ",\"lastName\":" + this.lastName + ",\"birthday\":" + this.birthday + ",\"count\":" + this.count + "}";
-	  }
+  public String getBirthday() {
 
+    return birthday;
+  }
 
-	public int getCount() {
-		return count;
-	}
+  /** @return the totalAmount */
+  public Integer getTotalAmount() {
+    return totalAmount;
+  }
 
+  /** @param totalAmount the totalAmount to set */
+  public void setTotalAmount(Integer totalAmount) {
+    this.totalAmount = totalAmount;
+  }
 
-	public void setCount(int count) {
-		this.count = count;
-	}
+  @Override
+  public String toString() {
+
+    return "\""
+        + this.id
+        + "\""
+        + ":{\"firstName\":"
+        + this.firstName
+        + ",\"lastName\":"
+        + this.lastName
+        + ",\"birthday\":"
+        + this.birthday
+        + ",\"count\":"
+        + this.totalAmount
+        + "}";
+  }
 }
