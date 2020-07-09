@@ -10,37 +10,48 @@ import java.nio.file.Paths;
 import java.util.stream.Stream;
 
 public class FileProcessor {
-  private static File jsonFile = new File("./../UsersDB.json");
+	
+	private static File jsonFile = new File("./../UsersDB.json");
+	private static String jsonFileName = "./../UsersDB.json";
+	
+	public static File getJsonFile() {
 
-  public static void writeStringToFile(String textToWrite) {
+		return jsonFile;
+	}
 
-    PrintWriter pw;
-    try {
+	public static String getJsonFileName() {
+		
+		return jsonFileName;
+	}
+	
+	public static void writeStringToFile(String textToWrite, File myFile) {
 
-      pw = new PrintWriter(jsonFile);
-      pw.write(textToWrite);
+		PrintWriter pw;
+		try {
 
-      pw.flush();
-      pw.close();
+			pw = new PrintWriter(myFile);
+			pw.write(textToWrite);
 
-    } catch (FileNotFoundException e) {
+			pw.flush();
+			pw.close();
 
-      System.out.println("PROBLEM WITH FILE");
-      e.printStackTrace();
-    }
-  }
+		} catch (FileNotFoundException e) {
 
-  public static String readStringFromFile() {
+			System.out.println("PROBLEM WITH FILE");
+			e.printStackTrace();
+		}
+	}
 
-    StringBuilder contentBuilder = new StringBuilder();
+	public static String readStringFromFile(String fileName) {
 
-    try (Stream<String> stream =
-        Files.lines(Paths.get("./../UsersDB.json"), StandardCharsets.UTF_8)) {
-      stream.forEach(s -> contentBuilder.append(s).append("\n"));
-    } catch (IOException e) {
-      e.printStackTrace();
-    }
+		StringBuilder contentBuilder = new StringBuilder();
 
-    return contentBuilder.toString();
-  }
+		try (Stream<String> stream = Files.lines(Paths.get(fileName), StandardCharsets.UTF_8)) {
+			stream.forEach(s -> contentBuilder.append(s).append("\n"));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return contentBuilder.toString();
+	}
 }

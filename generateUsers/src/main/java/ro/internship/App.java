@@ -35,9 +35,7 @@ public class App {
 			System.out.println("Start Writing user " + tempUser.toString());
 
 			// save at the end
-			FileProcessor.writeStringToFile(UserStorage.getStorageAsString());
-
-			System.out.println("=======" + UserStorage.size() + "=======");
+			FileProcessor.writeStringToFile(UserStorage.getStorageAsString(), FileProcessor.getJsonFile());
 
 			if (UserStorage.size() == 100)
 				break;

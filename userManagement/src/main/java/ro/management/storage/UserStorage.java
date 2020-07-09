@@ -52,12 +52,12 @@ public class UserStorage {
 
   public static void saveStorage() {
 
-    FileProcessor.writeStringToFile(getStorageAsString());
+    FileProcessor.writeStringToFile(getStorageAsString(), FileProcessor.getJsonFile());
   }
 
   public static void loadStorage() {
 
-    String fileContent = FileProcessor.readStringFromFile();
+    String fileContent = FileProcessor.readStringFromFile(FileProcessor.getJsonFileName());
 
     ObjectMapper objectMapper = new ObjectMapper();
     try {

@@ -16,7 +16,7 @@ public class Utils {
   }
 
   // function that generates a random birthday date for an user;
-  private static String randomBirthday() {
+  public static String randomBirthday() {
 
     GregorianCalendar gc = new GregorianCalendar();
     int year = randBetween(1956, 2002);
