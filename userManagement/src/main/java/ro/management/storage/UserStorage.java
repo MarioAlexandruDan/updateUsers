@@ -5,81 +5,92 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import ro.management.classes.User;
+import ro.management.program.App;
 import ro.management.services.FileProcessor;
 import ro.management.services.Utils;
 
 public class UserStorage {
 
-  private static volatile Map<String, User> userStorage = new HashMap<String, User>();
+	final static Logger logger = LogManager.getLogger(App.class);
 
-  public static Map<String, User> getUserStorage() {
+	private static volatile Map<String, User> userStorage = new HashMap<String, User>();
 
-    return userStorage;
-  }
+	public static Map<String, User> getUserStorage() {
+		
+		logger.debug("Returning the map of users (userStorage): " + userStorage);
+		return userStorage;
+	}
 
-  public static User getRecord(Integer userId) {
+	public static User getRecord(Integer userId) {
 
-    return userStorage.get(Utils.formatId(userId));
-  }
+		return userStorage.get(Utils.formatId(userId));
+	}
 
-  public static void setRecord(User user) {
+	public static void setRecord(User user) {
 
-    userStorage.put(Utils.formatId(user.getId()), user);
-  }
+		userStorage.put(Utils.formatId(user.getId()), user);
+	}
 
-  public static String getStorageAsString() {
+	public static String getStorageAsString() {
 
-    ObjectMapper objectMapper = new ObjectMapper();
-    try {
+		ObjectMapper objectMapper = new ObjectMapper();
+		try {
+			
+			return objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(userStorage);
 
-      return objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(userStorage);
+		} catch (JsonProcessingException e) {
+			
+			logger.error("ERROR IN WRITING USERS TO FILE");
+			e.printStackTrace();
+		}
 
-    } catch (JsonProcessingException e) {
+		return null;
+	}
 
-      e.printStackTrace();
-    }
+	public static int size() {
+		return userStorage.size();
+	}
 
-    return null;
-  }
+	public static void saveStorage() {
 
-  public static int size() {
-    return userStorage.size();
-  }
+		FileProcessor.writeStringToFile(getStorageAsString(), FileProcessor.getJsonFile());
+	}
 
-  public static void saveStorage() {
+	public static void loadStorage() {
 
-    FileProcessor.writeStringToFile(getStorageAsString(), FileProcessor.getJsonFile());
-  }
+		String fileContent = FileProcessor.readStringFromFile(FileProcessor.getJsonFileName());
 
-  public static void loadStorage() {
+		ObjectMapper objectMapper = new ObjectMapper();
+		try {
 
-    String fileContent = FileProcessor.readStringFromFile(FileProcessor.getJsonFileName());
+			userStorage = objectMapper.readValue(fileContent, new TypeReference<Map<String, User>>() {
+			});
 
-    ObjectMapper objectMapper = new ObjectMapper();
-    try {
+		} catch (IOException e) {
+			
+			logger.error("PROBLEM WITH CONVERSION FROM FILE CONTENT TO MY MAP");
+			e.printStackTrace();
+			System.out.println("PROBLEM WITH CONVERSION FROM FILE CONTENT TO MY MAP");
+		}
+	}
 
-      userStorage = objectMapper.readValue(fileContent, new TypeReference<Map<String, User>>() {});
+	@SuppressWarnings("unused")
+	private static void printMap(String idToFind) {
 
-    } catch (IOException e) {
+		Iterator<Entry<String, User>> it = userStorage.entrySet().iterator();
 
-      e.printStackTrace();
-      System.out.println("PROBLEM WITH CONVERSION FROM FILE CONTENT TO MY MAP");
-    }
-  }
+		while (it.hasNext()) {
 
-  @SuppressWarnings("unused")
-private static void printMap(String idToFind) {
-
-    Iterator<Entry<String, User>> it = userStorage.entrySet().iterator();
-
-    while (it.hasNext()) {
-
-      Map.Entry<String, User> pair = it.next();
-      System.out.println(pair.getKey() + " = " + pair.getValue().toString());
-    }
-  }
+			Map.Entry<String, User> pair = it.next();
+			System.out.println(pair.getKey() + " = " + pair.getValue().toString());
+		}
+	}
 }

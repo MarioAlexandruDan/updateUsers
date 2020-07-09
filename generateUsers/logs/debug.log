@@ -1,0 +1,6715 @@
+2020-07-09 19:33:01 DEBUG App:46 - Creating a list of users
+2020-07-09 19:33:01 DEBUG App:38 - Writing text to file: {
+  "0000000000000042" : {
+    "id" : 42,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1966-09-03",
+    "totalAmount" : 10
+  },
+  "0000000000000086" : {
+    "id" : 86,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1978-12-24",
+    "totalAmount" : 10
+  },
+  "0000000000000043" : {
+    "id" : 43,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1984-09-25",
+    "totalAmount" : 10
+  },
+  "0000000000000087" : {
+    "id" : 87,
+    "firstName" : "Florin",
+    "lastName" : "Gheorghe",
+    "birthday" : "1991-05-21",
+    "totalAmount" : 10
+  },
+  "0000000000000040" : {
+    "id" : 40,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "2000-07-03",
+    "totalAmount" : 10
+  },
+  "0000000000000084" : {
+    "id" : 84,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1973-09-27",
+    "totalAmount" : 10
+  },
+  "0000000000000041" : {
+    "id" : 41,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1992-10-02",
+    "totalAmount" : 10
+  },
+  "0000000000000085" : {
+    "id" : 85,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1976-10-24",
+    "totalAmount" : 10
+  },
+  "0000000000000082" : {
+    "id" : 82,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1956-04-04",
+    "totalAmount" : 10
+  },
+  "0000000000000083" : {
+    "id" : 83,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1977-01-30",
+    "totalAmount" : 10
+  },
+  "0000000000000080" : {
+    "id" : 80,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1994-07-28",
+    "totalAmount" : 10
+  },
+  "0000000000000081" : {
+    "id" : 81,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1989-01-07",
+    "totalAmount" : 10
+  },
+  "0000000000000039" : {
+    "id" : 39,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1994-03-19",
+    "totalAmount" : 10
+  },
+  "0000000000000037" : {
+    "id" : 37,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1988-06-21",
+    "totalAmount" : 10
+  },
+  "0000000000000038" : {
+    "id" : 38,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1990-01-25",
+    "totalAmount" : 10
+  },
+  "0000000000000035" : {
+    "id" : 35,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1967-03-10",
+    "totalAmount" : 10
+  },
+  "0000000000000079" : {
+    "id" : 79,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1966-09-29",
+    "totalAmount" : 10
+  },
+  "0000000000000036" : {
+    "id" : 36,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1984-02-07",
+    "totalAmount" : 10
+  },
+  "0000000000000033" : {
+    "id" : 33,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1963-06-13",
+    "totalAmount" : 10
+  },
+  "0000000000000077" : {
+    "id" : 77,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1989-03-04",
+    "totalAmount" : 10
+  },
+  "0000000000000034" : {
+    "id" : 34,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1975-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000078" : {
+    "id" : 78,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1978-12-21",
+    "totalAmount" : 10
+  },
+  "0000000000000031" : {
+    "id" : 31,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1992-05-16",
+    "totalAmount" : 10
+  },
+  "0000000000000075" : {
+    "id" : 75,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1993-07-23",
+    "totalAmount" : 10
+  },
+  "0000000000000032" : {
+    "id" : 32,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1972-08-13",
+    "totalAmount" : 10
+  },
+  "0000000000000076" : {
+    "id" : 76,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1970-10-22",
+    "totalAmount" : 10
+  },
+  "0000000000000073" : {
+    "id" : 73,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1979-07-20",
+    "totalAmount" : 10
+  },
+  "0000000000000030" : {
+    "id" : 30,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1984-03-24",
+    "totalAmount" : 10
+  },
+  "0000000000000074" : {
+    "id" : 74,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1997-05-26",
+    "totalAmount" : 10
+  },
+  "0000000000000071" : {
+    "id" : 71,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1992-11-01",
+    "totalAmount" : 10
+  },
+  "0000000000000072" : {
+    "id" : 72,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1968-12-22",
+    "totalAmount" : 10
+  },
+  "0000000000000070" : {
+    "id" : 70,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1967-02-25",
+    "totalAmount" : 10
+  },
+  "0000000000000028" : {
+    "id" : 28,
+    "firstName" : "Florin",
+    "lastName" : "Popa",
+    "birthday" : "1959-09-28",
+    "totalAmount" : 10
+  },
+  "0000000000000029" : {
+    "id" : 29,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1970-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000026" : {
+    "id" : 26,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1966-05-05",
+    "totalAmount" : 10
+  },
+  "0000000000000027" : {
+    "id" : 27,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "2000-03-05",
+    "totalAmount" : 10
+  },
+  "0000000000000024" : {
+    "id" : 24,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1969-10-16",
+    "totalAmount" : 10
+  },
+  "0000000000000068" : {
+    "id" : 68,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1967-08-07",
+    "totalAmount" : 10
+  },
+  "0000000000000025" : {
+    "id" : 25,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "1962-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000069" : {
+    "id" : 69,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1985-04-03",
+    "totalAmount" : 10
+  },
+  "0000000000000022" : {
+    "id" : 22,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1998-09-09",
+    "totalAmount" : 10
+  },
+  "0000000000000066" : {
+    "id" : 66,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1977-07-31",
+    "totalAmount" : 10
+  },
+  "0000000000000023" : {
+    "id" : 23,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1984-01-02",
+    "totalAmount" : 10
+  },
+  "0000000000000067" : {
+    "id" : 67,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1965-12-18",
+    "totalAmount" : 10
+  },
+  "0000000000000020" : {
+    "id" : 20,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1967-07-28",
+    "totalAmount" : 10
+  },
+  "0000000000000064" : {
+    "id" : 64,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1956-08-24",
+    "totalAmount" : 10
+  },
+  "0000000000000021" : {
+    "id" : 21,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1969-11-17",
+    "totalAmount" : 10
+  },
+  "0000000000000065" : {
+    "id" : 65,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1989-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000062" : {
+    "id" : 62,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1997-07-13",
+    "totalAmount" : 10
+  },
+  "0000000000000063" : {
+    "id" : 63,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1985-01-08",
+    "totalAmount" : 10
+  },
+  "0000000000000060" : {
+    "id" : 60,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1973-10-19",
+    "totalAmount" : 10
+  },
+  "0000000000000061" : {
+    "id" : 61,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1958-08-30",
+    "totalAmount" : 10
+  },
+  "0000000000000017" : {
+    "id" : 17,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1972-08-26",
+    "totalAmount" : 10
+  },
+  "0000000000000018" : {
+    "id" : 18,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1957-10-24",
+    "totalAmount" : 10
+  },
+  "0000000000000015" : {
+    "id" : 15,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1991-01-05",
+    "totalAmount" : 10
+  },
+  "0000000000000059" : {
+    "id" : 59,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1966-10-14",
+    "totalAmount" : 10
+  },
+  "0000000000000016" : {
+    "id" : 16,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1976-10-03",
+    "totalAmount" : 10
+  },
+  "0000000000000013" : {
+    "id" : 13,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1966-09-09",
+    "totalAmount" : 10
+  },
+  "0000000000000057" : {
+    "id" : 57,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1986-05-31",
+    "totalAmount" : 10
+  },
+  "0000000000000014" : {
+    "id" : 14,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1971-09-12",
+    "totalAmount" : 10
+  },
+  "0000000000000058" : {
+    "id" : 58,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1997-02-13",
+    "totalAmount" : 10
+  },
+  "0000000000000011" : {
+    "id" : 11,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1978-01-08",
+    "totalAmount" : 10
+  },
+  "0000000000000055" : {
+    "id" : 55,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-05-05",
+    "totalAmount" : 10
+  },
+  "0000000000000012" : {
+    "id" : 12,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1975-05-25",
+    "totalAmount" : 10
+  },
+  "0000000000000056" : {
+    "id" : 56,
+    "firstName" : "Alex",
+    "lastName" : "Ene",
+    "birthday" : "1967-03-14",
+    "totalAmount" : 10
+  },
+  "0000000000000019" : {
+    "id" : 19,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1978-04-11",
+    "totalAmount" : 10
+  },
+  "0000000000000090" : {
+    "id" : 90,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1984-07-07",
+    "totalAmount" : 10
+  },
+  "0000000000000053" : {
+    "id" : 53,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1957-06-27",
+    "totalAmount" : 10
+  },
+  "0000000000000010" : {
+    "id" : 10,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1989-04-14",
+    "totalAmount" : 10
+  },
+  "0000000000000054" : {
+    "id" : 54,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1994-04-09",
+    "totalAmount" : 10
+  },
+  "0000000000000051" : {
+    "id" : 51,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1982-12-14",
+    "totalAmount" : 10
+  },
+  "0000000000000052" : {
+    "id" : 52,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1970-03-15",
+    "totalAmount" : 10
+  },
+  "0000000000000050" : {
+    "id" : 50,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1999-05-26",
+    "totalAmount" : 10
+  },
+  "0000000000000091" : {
+    "id" : 91,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1989-06-15",
+    "totalAmount" : 10
+  },
+  "0000000000000006" : {
+    "id" : 6,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1957-03-15",
+    "totalAmount" : 10
+  },
+  "0000000000000007" : {
+    "id" : 7,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1976-06-21",
+    "totalAmount" : 10
+  },
+  "0000000000000004" : {
+    "id" : 4,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1960-08-14",
+    "totalAmount" : 10
+  },
+  "0000000000000048" : {
+    "id" : 48,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1973-08-23",
+    "totalAmount" : 10
+  },
+  "0000000000000005" : {
+    "id" : 5,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1965-12-27",
+    "totalAmount" : 10
+  },
+  "0000000000000049" : {
+    "id" : 49,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "1973-10-16",
+    "totalAmount" : 10
+  },
+  "0000000000000002" : {
+    "id" : 2,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1961-12-20",
+    "totalAmount" : 10
+  },
+  "0000000000000046" : {
+    "id" : 46,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1976-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000003" : {
+    "id" : 3,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1981-05-29",
+    "totalAmount" : 10
+  },
+  "0000000000000047" : {
+    "id" : 47,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1976-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000044" : {
+    "id" : 44,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1986-11-25",
+    "totalAmount" : 10
+  },
+  "0000000000000088" : {
+    "id" : 88,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1986-11-22",
+    "totalAmount" : 10
+  },
+  "0000000000000001" : {
+    "id" : 1,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1959-01-28",
+    "totalAmount" : 10
+  },
+  "0000000000000045" : {
+    "id" : 45,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-12-14",
+    "totalAmount" : 10
+  },
+  "0000000000000089" : {
+    "id" : 89,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1999-01-30",
+    "totalAmount" : 10
+  },
+  "0000000000000008" : {
+    "id" : 8,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1960-01-09",
+    "totalAmount" : 10
+  },
+  "0000000000000009" : {
+    "id" : 9,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1983-08-09",
+    "totalAmount" : 10
+  }
+}
+2020-07-09 19:33:01 DEBUG App:46 - Creating a list of users
+2020-07-09 19:33:01 DEBUG App:38 - Writing text to file: {
+  "0000000000000042" : {
+    "id" : 42,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1966-09-03",
+    "totalAmount" : 10
+  },
+  "0000000000000086" : {
+    "id" : 86,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1978-12-24",
+    "totalAmount" : 10
+  },
+  "0000000000000043" : {
+    "id" : 43,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1984-09-25",
+    "totalAmount" : 10
+  },
+  "0000000000000087" : {
+    "id" : 87,
+    "firstName" : "Florin",
+    "lastName" : "Gheorghe",
+    "birthday" : "1991-05-21",
+    "totalAmount" : 10
+  },
+  "0000000000000040" : {
+    "id" : 40,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "2000-07-03",
+    "totalAmount" : 10
+  },
+  "0000000000000084" : {
+    "id" : 84,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1973-09-27",
+    "totalAmount" : 10
+  },
+  "0000000000000041" : {
+    "id" : 41,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1992-10-02",
+    "totalAmount" : 10
+  },
+  "0000000000000085" : {
+    "id" : 85,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1976-10-24",
+    "totalAmount" : 10
+  },
+  "0000000000000082" : {
+    "id" : 82,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1956-04-04",
+    "totalAmount" : 10
+  },
+  "0000000000000083" : {
+    "id" : 83,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1977-01-30",
+    "totalAmount" : 10
+  },
+  "0000000000000080" : {
+    "id" : 80,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1994-07-28",
+    "totalAmount" : 10
+  },
+  "0000000000000081" : {
+    "id" : 81,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1989-01-07",
+    "totalAmount" : 10
+  },
+  "0000000000000039" : {
+    "id" : 39,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1994-03-19",
+    "totalAmount" : 10
+  },
+  "0000000000000037" : {
+    "id" : 37,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1988-06-21",
+    "totalAmount" : 10
+  },
+  "0000000000000038" : {
+    "id" : 38,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1990-01-25",
+    "totalAmount" : 10
+  },
+  "0000000000000035" : {
+    "id" : 35,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1967-03-10",
+    "totalAmount" : 10
+  },
+  "0000000000000079" : {
+    "id" : 79,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1966-09-29",
+    "totalAmount" : 10
+  },
+  "0000000000000036" : {
+    "id" : 36,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1984-02-07",
+    "totalAmount" : 10
+  },
+  "0000000000000033" : {
+    "id" : 33,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1963-06-13",
+    "totalAmount" : 10
+  },
+  "0000000000000077" : {
+    "id" : 77,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1989-03-04",
+    "totalAmount" : 10
+  },
+  "0000000000000034" : {
+    "id" : 34,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1975-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000078" : {
+    "id" : 78,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1978-12-21",
+    "totalAmount" : 10
+  },
+  "0000000000000031" : {
+    "id" : 31,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1992-05-16",
+    "totalAmount" : 10
+  },
+  "0000000000000075" : {
+    "id" : 75,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1993-07-23",
+    "totalAmount" : 10
+  },
+  "0000000000000032" : {
+    "id" : 32,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1972-08-13",
+    "totalAmount" : 10
+  },
+  "0000000000000076" : {
+    "id" : 76,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1970-10-22",
+    "totalAmount" : 10
+  },
+  "0000000000000073" : {
+    "id" : 73,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1979-07-20",
+    "totalAmount" : 10
+  },
+  "0000000000000030" : {
+    "id" : 30,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1984-03-24",
+    "totalAmount" : 10
+  },
+  "0000000000000074" : {
+    "id" : 74,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1997-05-26",
+    "totalAmount" : 10
+  },
+  "0000000000000071" : {
+    "id" : 71,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1992-11-01",
+    "totalAmount" : 10
+  },
+  "0000000000000072" : {
+    "id" : 72,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1968-12-22",
+    "totalAmount" : 10
+  },
+  "0000000000000070" : {
+    "id" : 70,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1967-02-25",
+    "totalAmount" : 10
+  },
+  "0000000000000028" : {
+    "id" : 28,
+    "firstName" : "Florin",
+    "lastName" : "Popa",
+    "birthday" : "1959-09-28",
+    "totalAmount" : 10
+  },
+  "0000000000000029" : {
+    "id" : 29,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1970-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000026" : {
+    "id" : 26,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1966-05-05",
+    "totalAmount" : 10
+  },
+  "0000000000000027" : {
+    "id" : 27,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "2000-03-05",
+    "totalAmount" : 10
+  },
+  "0000000000000024" : {
+    "id" : 24,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1969-10-16",
+    "totalAmount" : 10
+  },
+  "0000000000000068" : {
+    "id" : 68,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1967-08-07",
+    "totalAmount" : 10
+  },
+  "0000000000000025" : {
+    "id" : 25,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "1962-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000069" : {
+    "id" : 69,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1985-04-03",
+    "totalAmount" : 10
+  },
+  "0000000000000022" : {
+    "id" : 22,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1998-09-09",
+    "totalAmount" : 10
+  },
+  "0000000000000066" : {
+    "id" : 66,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1977-07-31",
+    "totalAmount" : 10
+  },
+  "0000000000000023" : {
+    "id" : 23,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1984-01-02",
+    "totalAmount" : 10
+  },
+  "0000000000000067" : {
+    "id" : 67,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1965-12-18",
+    "totalAmount" : 10
+  },
+  "0000000000000020" : {
+    "id" : 20,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1967-07-28",
+    "totalAmount" : 10
+  },
+  "0000000000000064" : {
+    "id" : 64,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1956-08-24",
+    "totalAmount" : 10
+  },
+  "0000000000000021" : {
+    "id" : 21,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1969-11-17",
+    "totalAmount" : 10
+  },
+  "0000000000000065" : {
+    "id" : 65,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1989-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000062" : {
+    "id" : 62,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1997-07-13",
+    "totalAmount" : 10
+  },
+  "0000000000000063" : {
+    "id" : 63,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1985-01-08",
+    "totalAmount" : 10
+  },
+  "0000000000000060" : {
+    "id" : 60,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1973-10-19",
+    "totalAmount" : 10
+  },
+  "0000000000000061" : {
+    "id" : 61,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1958-08-30",
+    "totalAmount" : 10
+  },
+  "0000000000000017" : {
+    "id" : 17,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1972-08-26",
+    "totalAmount" : 10
+  },
+  "0000000000000018" : {
+    "id" : 18,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1957-10-24",
+    "totalAmount" : 10
+  },
+  "0000000000000015" : {
+    "id" : 15,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1991-01-05",
+    "totalAmount" : 10
+  },
+  "0000000000000059" : {
+    "id" : 59,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1966-10-14",
+    "totalAmount" : 10
+  },
+  "0000000000000016" : {
+    "id" : 16,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1976-10-03",
+    "totalAmount" : 10
+  },
+  "0000000000000013" : {
+    "id" : 13,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1966-09-09",
+    "totalAmount" : 10
+  },
+  "0000000000000057" : {
+    "id" : 57,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1986-05-31",
+    "totalAmount" : 10
+  },
+  "0000000000000014" : {
+    "id" : 14,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1971-09-12",
+    "totalAmount" : 10
+  },
+  "0000000000000058" : {
+    "id" : 58,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1997-02-13",
+    "totalAmount" : 10
+  },
+  "0000000000000011" : {
+    "id" : 11,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1978-01-08",
+    "totalAmount" : 10
+  },
+  "0000000000000055" : {
+    "id" : 55,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-05-05",
+    "totalAmount" : 10
+  },
+  "0000000000000012" : {
+    "id" : 12,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1975-05-25",
+    "totalAmount" : 10
+  },
+  "0000000000000056" : {
+    "id" : 56,
+    "firstName" : "Alex",
+    "lastName" : "Ene",
+    "birthday" : "1967-03-14",
+    "totalAmount" : 10
+  },
+  "0000000000000019" : {
+    "id" : 19,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1978-04-11",
+    "totalAmount" : 10
+  },
+  "0000000000000090" : {
+    "id" : 90,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1984-07-07",
+    "totalAmount" : 10
+  },
+  "0000000000000053" : {
+    "id" : 53,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1957-06-27",
+    "totalAmount" : 10
+  },
+  "0000000000000010" : {
+    "id" : 10,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1989-04-14",
+    "totalAmount" : 10
+  },
+  "0000000000000054" : {
+    "id" : 54,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1994-04-09",
+    "totalAmount" : 10
+  },
+  "0000000000000051" : {
+    "id" : 51,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1982-12-14",
+    "totalAmount" : 10
+  },
+  "0000000000000052" : {
+    "id" : 52,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1970-03-15",
+    "totalAmount" : 10
+  },
+  "0000000000000050" : {
+    "id" : 50,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1999-05-26",
+    "totalAmount" : 10
+  },
+  "0000000000000091" : {
+    "id" : 91,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1989-06-15",
+    "totalAmount" : 10
+  },
+  "0000000000000092" : {
+    "id" : 92,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1979-03-24",
+    "totalAmount" : 10
+  },
+  "0000000000000006" : {
+    "id" : 6,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1957-03-15",
+    "totalAmount" : 10
+  },
+  "0000000000000007" : {
+    "id" : 7,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1976-06-21",
+    "totalAmount" : 10
+  },
+  "0000000000000004" : {
+    "id" : 4,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1960-08-14",
+    "totalAmount" : 10
+  },
+  "0000000000000048" : {
+    "id" : 48,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1973-08-23",
+    "totalAmount" : 10
+  },
+  "0000000000000005" : {
+    "id" : 5,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1965-12-27",
+    "totalAmount" : 10
+  },
+  "0000000000000049" : {
+    "id" : 49,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "1973-10-16",
+    "totalAmount" : 10
+  },
+  "0000000000000002" : {
+    "id" : 2,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1961-12-20",
+    "totalAmount" : 10
+  },
+  "0000000000000046" : {
+    "id" : 46,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1976-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000003" : {
+    "id" : 3,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1981-05-29",
+    "totalAmount" : 10
+  },
+  "0000000000000047" : {
+    "id" : 47,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1976-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000044" : {
+    "id" : 44,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1986-11-25",
+    "totalAmount" : 10
+  },
+  "0000000000000088" : {
+    "id" : 88,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1986-11-22",
+    "totalAmount" : 10
+  },
+  "0000000000000001" : {
+    "id" : 1,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1959-01-28",
+    "totalAmount" : 10
+  },
+  "0000000000000045" : {
+    "id" : 45,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-12-14",
+    "totalAmount" : 10
+  },
+  "0000000000000089" : {
+    "id" : 89,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1999-01-30",
+    "totalAmount" : 10
+  },
+  "0000000000000008" : {
+    "id" : 8,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1960-01-09",
+    "totalAmount" : 10
+  },
+  "0000000000000009" : {
+    "id" : 9,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1983-08-09",
+    "totalAmount" : 10
+  }
+}
+2020-07-09 19:33:01 DEBUG App:46 - Creating a list of users
+2020-07-09 19:33:01 DEBUG App:38 - Writing text to file: {
+  "0000000000000042" : {
+    "id" : 42,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1966-09-03",
+    "totalAmount" : 10
+  },
+  "0000000000000086" : {
+    "id" : 86,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1978-12-24",
+    "totalAmount" : 10
+  },
+  "0000000000000043" : {
+    "id" : 43,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1984-09-25",
+    "totalAmount" : 10
+  },
+  "0000000000000087" : {
+    "id" : 87,
+    "firstName" : "Florin",
+    "lastName" : "Gheorghe",
+    "birthday" : "1991-05-21",
+    "totalAmount" : 10
+  },
+  "0000000000000040" : {
+    "id" : 40,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "2000-07-03",
+    "totalAmount" : 10
+  },
+  "0000000000000084" : {
+    "id" : 84,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1973-09-27",
+    "totalAmount" : 10
+  },
+  "0000000000000041" : {
+    "id" : 41,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1992-10-02",
+    "totalAmount" : 10
+  },
+  "0000000000000085" : {
+    "id" : 85,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1976-10-24",
+    "totalAmount" : 10
+  },
+  "0000000000000082" : {
+    "id" : 82,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1956-04-04",
+    "totalAmount" : 10
+  },
+  "0000000000000083" : {
+    "id" : 83,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1977-01-30",
+    "totalAmount" : 10
+  },
+  "0000000000000080" : {
+    "id" : 80,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1994-07-28",
+    "totalAmount" : 10
+  },
+  "0000000000000081" : {
+    "id" : 81,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1989-01-07",
+    "totalAmount" : 10
+  },
+  "0000000000000039" : {
+    "id" : 39,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1994-03-19",
+    "totalAmount" : 10
+  },
+  "0000000000000037" : {
+    "id" : 37,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1988-06-21",
+    "totalAmount" : 10
+  },
+  "0000000000000038" : {
+    "id" : 38,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1990-01-25",
+    "totalAmount" : 10
+  },
+  "0000000000000035" : {
+    "id" : 35,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1967-03-10",
+    "totalAmount" : 10
+  },
+  "0000000000000079" : {
+    "id" : 79,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1966-09-29",
+    "totalAmount" : 10
+  },
+  "0000000000000036" : {
+    "id" : 36,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1984-02-07",
+    "totalAmount" : 10
+  },
+  "0000000000000033" : {
+    "id" : 33,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1963-06-13",
+    "totalAmount" : 10
+  },
+  "0000000000000077" : {
+    "id" : 77,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1989-03-04",
+    "totalAmount" : 10
+  },
+  "0000000000000034" : {
+    "id" : 34,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1975-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000078" : {
+    "id" : 78,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1978-12-21",
+    "totalAmount" : 10
+  },
+  "0000000000000031" : {
+    "id" : 31,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1992-05-16",
+    "totalAmount" : 10
+  },
+  "0000000000000075" : {
+    "id" : 75,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1993-07-23",
+    "totalAmount" : 10
+  },
+  "0000000000000032" : {
+    "id" : 32,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1972-08-13",
+    "totalAmount" : 10
+  },
+  "0000000000000076" : {
+    "id" : 76,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1970-10-22",
+    "totalAmount" : 10
+  },
+  "0000000000000073" : {
+    "id" : 73,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1979-07-20",
+    "totalAmount" : 10
+  },
+  "0000000000000030" : {
+    "id" : 30,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1984-03-24",
+    "totalAmount" : 10
+  },
+  "0000000000000074" : {
+    "id" : 74,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1997-05-26",
+    "totalAmount" : 10
+  },
+  "0000000000000071" : {
+    "id" : 71,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1992-11-01",
+    "totalAmount" : 10
+  },
+  "0000000000000072" : {
+    "id" : 72,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1968-12-22",
+    "totalAmount" : 10
+  },
+  "0000000000000070" : {
+    "id" : 70,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1967-02-25",
+    "totalAmount" : 10
+  },
+  "0000000000000028" : {
+    "id" : 28,
+    "firstName" : "Florin",
+    "lastName" : "Popa",
+    "birthday" : "1959-09-28",
+    "totalAmount" : 10
+  },
+  "0000000000000029" : {
+    "id" : 29,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1970-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000026" : {
+    "id" : 26,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1966-05-05",
+    "totalAmount" : 10
+  },
+  "0000000000000027" : {
+    "id" : 27,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "2000-03-05",
+    "totalAmount" : 10
+  },
+  "0000000000000024" : {
+    "id" : 24,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1969-10-16",
+    "totalAmount" : 10
+  },
+  "0000000000000068" : {
+    "id" : 68,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1967-08-07",
+    "totalAmount" : 10
+  },
+  "0000000000000025" : {
+    "id" : 25,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "1962-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000069" : {
+    "id" : 69,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1985-04-03",
+    "totalAmount" : 10
+  },
+  "0000000000000022" : {
+    "id" : 22,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1998-09-09",
+    "totalAmount" : 10
+  },
+  "0000000000000066" : {
+    "id" : 66,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1977-07-31",
+    "totalAmount" : 10
+  },
+  "0000000000000023" : {
+    "id" : 23,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1984-01-02",
+    "totalAmount" : 10
+  },
+  "0000000000000067" : {
+    "id" : 67,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1965-12-18",
+    "totalAmount" : 10
+  },
+  "0000000000000020" : {
+    "id" : 20,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1967-07-28",
+    "totalAmount" : 10
+  },
+  "0000000000000064" : {
+    "id" : 64,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1956-08-24",
+    "totalAmount" : 10
+  },
+  "0000000000000021" : {
+    "id" : 21,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1969-11-17",
+    "totalAmount" : 10
+  },
+  "0000000000000065" : {
+    "id" : 65,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1989-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000062" : {
+    "id" : 62,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1997-07-13",
+    "totalAmount" : 10
+  },
+  "0000000000000063" : {
+    "id" : 63,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1985-01-08",
+    "totalAmount" : 10
+  },
+  "0000000000000060" : {
+    "id" : 60,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1973-10-19",
+    "totalAmount" : 10
+  },
+  "0000000000000061" : {
+    "id" : 61,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1958-08-30",
+    "totalAmount" : 10
+  },
+  "0000000000000017" : {
+    "id" : 17,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1972-08-26",
+    "totalAmount" : 10
+  },
+  "0000000000000018" : {
+    "id" : 18,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1957-10-24",
+    "totalAmount" : 10
+  },
+  "0000000000000015" : {
+    "id" : 15,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1991-01-05",
+    "totalAmount" : 10
+  },
+  "0000000000000059" : {
+    "id" : 59,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1966-10-14",
+    "totalAmount" : 10
+  },
+  "0000000000000016" : {
+    "id" : 16,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1976-10-03",
+    "totalAmount" : 10
+  },
+  "0000000000000013" : {
+    "id" : 13,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1966-09-09",
+    "totalAmount" : 10
+  },
+  "0000000000000057" : {
+    "id" : 57,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1986-05-31",
+    "totalAmount" : 10
+  },
+  "0000000000000014" : {
+    "id" : 14,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1971-09-12",
+    "totalAmount" : 10
+  },
+  "0000000000000058" : {
+    "id" : 58,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1997-02-13",
+    "totalAmount" : 10
+  },
+  "0000000000000011" : {
+    "id" : 11,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1978-01-08",
+    "totalAmount" : 10
+  },
+  "0000000000000055" : {
+    "id" : 55,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-05-05",
+    "totalAmount" : 10
+  },
+  "0000000000000012" : {
+    "id" : 12,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1975-05-25",
+    "totalAmount" : 10
+  },
+  "0000000000000056" : {
+    "id" : 56,
+    "firstName" : "Alex",
+    "lastName" : "Ene",
+    "birthday" : "1967-03-14",
+    "totalAmount" : 10
+  },
+  "0000000000000019" : {
+    "id" : 19,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1978-04-11",
+    "totalAmount" : 10
+  },
+  "0000000000000090" : {
+    "id" : 90,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1984-07-07",
+    "totalAmount" : 10
+  },
+  "0000000000000053" : {
+    "id" : 53,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1957-06-27",
+    "totalAmount" : 10
+  },
+  "0000000000000010" : {
+    "id" : 10,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1989-04-14",
+    "totalAmount" : 10
+  },
+  "0000000000000054" : {
+    "id" : 54,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1994-04-09",
+    "totalAmount" : 10
+  },
+  "0000000000000051" : {
+    "id" : 51,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1982-12-14",
+    "totalAmount" : 10
+  },
+  "0000000000000052" : {
+    "id" : 52,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1970-03-15",
+    "totalAmount" : 10
+  },
+  "0000000000000093" : {
+    "id" : 93,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1957-10-30",
+    "totalAmount" : 10
+  },
+  "0000000000000050" : {
+    "id" : 50,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1999-05-26",
+    "totalAmount" : 10
+  },
+  "0000000000000091" : {
+    "id" : 91,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1989-06-15",
+    "totalAmount" : 10
+  },
+  "0000000000000092" : {
+    "id" : 92,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1979-03-24",
+    "totalAmount" : 10
+  },
+  "0000000000000006" : {
+    "id" : 6,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1957-03-15",
+    "totalAmount" : 10
+  },
+  "0000000000000007" : {
+    "id" : 7,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1976-06-21",
+    "totalAmount" : 10
+  },
+  "0000000000000004" : {
+    "id" : 4,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1960-08-14",
+    "totalAmount" : 10
+  },
+  "0000000000000048" : {
+    "id" : 48,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1973-08-23",
+    "totalAmount" : 10
+  },
+  "0000000000000005" : {
+    "id" : 5,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1965-12-27",
+    "totalAmount" : 10
+  },
+  "0000000000000049" : {
+    "id" : 49,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "1973-10-16",
+    "totalAmount" : 10
+  },
+  "0000000000000002" : {
+    "id" : 2,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1961-12-20",
+    "totalAmount" : 10
+  },
+  "0000000000000046" : {
+    "id" : 46,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1976-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000003" : {
+    "id" : 3,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1981-05-29",
+    "totalAmount" : 10
+  },
+  "0000000000000047" : {
+    "id" : 47,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1976-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000044" : {
+    "id" : 44,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1986-11-25",
+    "totalAmount" : 10
+  },
+  "0000000000000088" : {
+    "id" : 88,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1986-11-22",
+    "totalAmount" : 10
+  },
+  "0000000000000001" : {
+    "id" : 1,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1959-01-28",
+    "totalAmount" : 10
+  },
+  "0000000000000045" : {
+    "id" : 45,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-12-14",
+    "totalAmount" : 10
+  },
+  "0000000000000089" : {
+    "id" : 89,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1999-01-30",
+    "totalAmount" : 10
+  },
+  "0000000000000008" : {
+    "id" : 8,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1960-01-09",
+    "totalAmount" : 10
+  },
+  "0000000000000009" : {
+    "id" : 9,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1983-08-09",
+    "totalAmount" : 10
+  }
+}
+2020-07-09 19:33:01 DEBUG App:46 - Creating a list of users
+2020-07-09 19:33:01 DEBUG App:38 - Writing text to file: {
+  "0000000000000042" : {
+    "id" : 42,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1966-09-03",
+    "totalAmount" : 10
+  },
+  "0000000000000086" : {
+    "id" : 86,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1978-12-24",
+    "totalAmount" : 10
+  },
+  "0000000000000043" : {
+    "id" : 43,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1984-09-25",
+    "totalAmount" : 10
+  },
+  "0000000000000087" : {
+    "id" : 87,
+    "firstName" : "Florin",
+    "lastName" : "Gheorghe",
+    "birthday" : "1991-05-21",
+    "totalAmount" : 10
+  },
+  "0000000000000040" : {
+    "id" : 40,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "2000-07-03",
+    "totalAmount" : 10
+  },
+  "0000000000000084" : {
+    "id" : 84,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1973-09-27",
+    "totalAmount" : 10
+  },
+  "0000000000000041" : {
+    "id" : 41,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1992-10-02",
+    "totalAmount" : 10
+  },
+  "0000000000000085" : {
+    "id" : 85,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1976-10-24",
+    "totalAmount" : 10
+  },
+  "0000000000000082" : {
+    "id" : 82,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1956-04-04",
+    "totalAmount" : 10
+  },
+  "0000000000000083" : {
+    "id" : 83,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1977-01-30",
+    "totalAmount" : 10
+  },
+  "0000000000000080" : {
+    "id" : 80,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1994-07-28",
+    "totalAmount" : 10
+  },
+  "0000000000000081" : {
+    "id" : 81,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1989-01-07",
+    "totalAmount" : 10
+  },
+  "0000000000000039" : {
+    "id" : 39,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1994-03-19",
+    "totalAmount" : 10
+  },
+  "0000000000000037" : {
+    "id" : 37,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1988-06-21",
+    "totalAmount" : 10
+  },
+  "0000000000000038" : {
+    "id" : 38,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1990-01-25",
+    "totalAmount" : 10
+  },
+  "0000000000000035" : {
+    "id" : 35,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1967-03-10",
+    "totalAmount" : 10
+  },
+  "0000000000000079" : {
+    "id" : 79,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1966-09-29",
+    "totalAmount" : 10
+  },
+  "0000000000000036" : {
+    "id" : 36,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1984-02-07",
+    "totalAmount" : 10
+  },
+  "0000000000000033" : {
+    "id" : 33,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1963-06-13",
+    "totalAmount" : 10
+  },
+  "0000000000000077" : {
+    "id" : 77,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1989-03-04",
+    "totalAmount" : 10
+  },
+  "0000000000000034" : {
+    "id" : 34,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1975-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000078" : {
+    "id" : 78,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1978-12-21",
+    "totalAmount" : 10
+  },
+  "0000000000000031" : {
+    "id" : 31,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1992-05-16",
+    "totalAmount" : 10
+  },
+  "0000000000000075" : {
+    "id" : 75,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1993-07-23",
+    "totalAmount" : 10
+  },
+  "0000000000000032" : {
+    "id" : 32,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1972-08-13",
+    "totalAmount" : 10
+  },
+  "0000000000000076" : {
+    "id" : 76,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1970-10-22",
+    "totalAmount" : 10
+  },
+  "0000000000000073" : {
+    "id" : 73,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1979-07-20",
+    "totalAmount" : 10
+  },
+  "0000000000000030" : {
+    "id" : 30,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1984-03-24",
+    "totalAmount" : 10
+  },
+  "0000000000000074" : {
+    "id" : 74,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1997-05-26",
+    "totalAmount" : 10
+  },
+  "0000000000000071" : {
+    "id" : 71,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1992-11-01",
+    "totalAmount" : 10
+  },
+  "0000000000000072" : {
+    "id" : 72,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1968-12-22",
+    "totalAmount" : 10
+  },
+  "0000000000000070" : {
+    "id" : 70,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1967-02-25",
+    "totalAmount" : 10
+  },
+  "0000000000000028" : {
+    "id" : 28,
+    "firstName" : "Florin",
+    "lastName" : "Popa",
+    "birthday" : "1959-09-28",
+    "totalAmount" : 10
+  },
+  "0000000000000029" : {
+    "id" : 29,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1970-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000026" : {
+    "id" : 26,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1966-05-05",
+    "totalAmount" : 10
+  },
+  "0000000000000027" : {
+    "id" : 27,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "2000-03-05",
+    "totalAmount" : 10
+  },
+  "0000000000000024" : {
+    "id" : 24,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1969-10-16",
+    "totalAmount" : 10
+  },
+  "0000000000000068" : {
+    "id" : 68,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1967-08-07",
+    "totalAmount" : 10
+  },
+  "0000000000000025" : {
+    "id" : 25,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "1962-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000069" : {
+    "id" : 69,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1985-04-03",
+    "totalAmount" : 10
+  },
+  "0000000000000022" : {
+    "id" : 22,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1998-09-09",
+    "totalAmount" : 10
+  },
+  "0000000000000066" : {
+    "id" : 66,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1977-07-31",
+    "totalAmount" : 10
+  },
+  "0000000000000023" : {
+    "id" : 23,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1984-01-02",
+    "totalAmount" : 10
+  },
+  "0000000000000067" : {
+    "id" : 67,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1965-12-18",
+    "totalAmount" : 10
+  },
+  "0000000000000020" : {
+    "id" : 20,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1967-07-28",
+    "totalAmount" : 10
+  },
+  "0000000000000064" : {
+    "id" : 64,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1956-08-24",
+    "totalAmount" : 10
+  },
+  "0000000000000021" : {
+    "id" : 21,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1969-11-17",
+    "totalAmount" : 10
+  },
+  "0000000000000065" : {
+    "id" : 65,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1989-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000062" : {
+    "id" : 62,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1997-07-13",
+    "totalAmount" : 10
+  },
+  "0000000000000063" : {
+    "id" : 63,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1985-01-08",
+    "totalAmount" : 10
+  },
+  "0000000000000060" : {
+    "id" : 60,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1973-10-19",
+    "totalAmount" : 10
+  },
+  "0000000000000061" : {
+    "id" : 61,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1958-08-30",
+    "totalAmount" : 10
+  },
+  "0000000000000017" : {
+    "id" : 17,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1972-08-26",
+    "totalAmount" : 10
+  },
+  "0000000000000018" : {
+    "id" : 18,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1957-10-24",
+    "totalAmount" : 10
+  },
+  "0000000000000015" : {
+    "id" : 15,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1991-01-05",
+    "totalAmount" : 10
+  },
+  "0000000000000059" : {
+    "id" : 59,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1966-10-14",
+    "totalAmount" : 10
+  },
+  "0000000000000016" : {
+    "id" : 16,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1976-10-03",
+    "totalAmount" : 10
+  },
+  "0000000000000013" : {
+    "id" : 13,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1966-09-09",
+    "totalAmount" : 10
+  },
+  "0000000000000057" : {
+    "id" : 57,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1986-05-31",
+    "totalAmount" : 10
+  },
+  "0000000000000014" : {
+    "id" : 14,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1971-09-12",
+    "totalAmount" : 10
+  },
+  "0000000000000058" : {
+    "id" : 58,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1997-02-13",
+    "totalAmount" : 10
+  },
+  "0000000000000011" : {
+    "id" : 11,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1978-01-08",
+    "totalAmount" : 10
+  },
+  "0000000000000055" : {
+    "id" : 55,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-05-05",
+    "totalAmount" : 10
+  },
+  "0000000000000012" : {
+    "id" : 12,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1975-05-25",
+    "totalAmount" : 10
+  },
+  "0000000000000056" : {
+    "id" : 56,
+    "firstName" : "Alex",
+    "lastName" : "Ene",
+    "birthday" : "1967-03-14",
+    "totalAmount" : 10
+  },
+  "0000000000000019" : {
+    "id" : 19,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1978-04-11",
+    "totalAmount" : 10
+  },
+  "0000000000000090" : {
+    "id" : 90,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1984-07-07",
+    "totalAmount" : 10
+  },
+  "0000000000000053" : {
+    "id" : 53,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1957-06-27",
+    "totalAmount" : 10
+  },
+  "0000000000000010" : {
+    "id" : 10,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1989-04-14",
+    "totalAmount" : 10
+  },
+  "0000000000000054" : {
+    "id" : 54,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1994-04-09",
+    "totalAmount" : 10
+  },
+  "0000000000000051" : {
+    "id" : 51,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1982-12-14",
+    "totalAmount" : 10
+  },
+  "0000000000000052" : {
+    "id" : 52,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1970-03-15",
+    "totalAmount" : 10
+  },
+  "0000000000000093" : {
+    "id" : 93,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1957-10-30",
+    "totalAmount" : 10
+  },
+  "0000000000000050" : {
+    "id" : 50,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1999-05-26",
+    "totalAmount" : 10
+  },
+  "0000000000000094" : {
+    "id" : 94,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1994-04-20",
+    "totalAmount" : 10
+  },
+  "0000000000000091" : {
+    "id" : 91,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1989-06-15",
+    "totalAmount" : 10
+  },
+  "0000000000000092" : {
+    "id" : 92,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1979-03-24",
+    "totalAmount" : 10
+  },
+  "0000000000000006" : {
+    "id" : 6,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1957-03-15",
+    "totalAmount" : 10
+  },
+  "0000000000000007" : {
+    "id" : 7,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1976-06-21",
+    "totalAmount" : 10
+  },
+  "0000000000000004" : {
+    "id" : 4,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1960-08-14",
+    "totalAmount" : 10
+  },
+  "0000000000000048" : {
+    "id" : 48,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1973-08-23",
+    "totalAmount" : 10
+  },
+  "0000000000000005" : {
+    "id" : 5,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1965-12-27",
+    "totalAmount" : 10
+  },
+  "0000000000000049" : {
+    "id" : 49,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "1973-10-16",
+    "totalAmount" : 10
+  },
+  "0000000000000002" : {
+    "id" : 2,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1961-12-20",
+    "totalAmount" : 10
+  },
+  "0000000000000046" : {
+    "id" : 46,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1976-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000003" : {
+    "id" : 3,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1981-05-29",
+    "totalAmount" : 10
+  },
+  "0000000000000047" : {
+    "id" : 47,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1976-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000044" : {
+    "id" : 44,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1986-11-25",
+    "totalAmount" : 10
+  },
+  "0000000000000088" : {
+    "id" : 88,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1986-11-22",
+    "totalAmount" : 10
+  },
+  "0000000000000001" : {
+    "id" : 1,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1959-01-28",
+    "totalAmount" : 10
+  },
+  "0000000000000045" : {
+    "id" : 45,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-12-14",
+    "totalAmount" : 10
+  },
+  "0000000000000089" : {
+    "id" : 89,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1999-01-30",
+    "totalAmount" : 10
+  },
+  "0000000000000008" : {
+    "id" : 8,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1960-01-09",
+    "totalAmount" : 10
+  },
+  "0000000000000009" : {
+    "id" : 9,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1983-08-09",
+    "totalAmount" : 10
+  }
+}
+2020-07-09 19:33:01 DEBUG App:46 - Creating a list of users
+2020-07-09 19:33:01 DEBUG App:38 - Writing text to file: {
+  "0000000000000042" : {
+    "id" : 42,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1966-09-03",
+    "totalAmount" : 10
+  },
+  "0000000000000086" : {
+    "id" : 86,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1978-12-24",
+    "totalAmount" : 10
+  },
+  "0000000000000043" : {
+    "id" : 43,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1984-09-25",
+    "totalAmount" : 10
+  },
+  "0000000000000087" : {
+    "id" : 87,
+    "firstName" : "Florin",
+    "lastName" : "Gheorghe",
+    "birthday" : "1991-05-21",
+    "totalAmount" : 10
+  },
+  "0000000000000040" : {
+    "id" : 40,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "2000-07-03",
+    "totalAmount" : 10
+  },
+  "0000000000000084" : {
+    "id" : 84,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1973-09-27",
+    "totalAmount" : 10
+  },
+  "0000000000000041" : {
+    "id" : 41,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1992-10-02",
+    "totalAmount" : 10
+  },
+  "0000000000000085" : {
+    "id" : 85,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1976-10-24",
+    "totalAmount" : 10
+  },
+  "0000000000000082" : {
+    "id" : 82,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1956-04-04",
+    "totalAmount" : 10
+  },
+  "0000000000000083" : {
+    "id" : 83,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1977-01-30",
+    "totalAmount" : 10
+  },
+  "0000000000000080" : {
+    "id" : 80,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1994-07-28",
+    "totalAmount" : 10
+  },
+  "0000000000000081" : {
+    "id" : 81,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1989-01-07",
+    "totalAmount" : 10
+  },
+  "0000000000000039" : {
+    "id" : 39,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1994-03-19",
+    "totalAmount" : 10
+  },
+  "0000000000000037" : {
+    "id" : 37,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1988-06-21",
+    "totalAmount" : 10
+  },
+  "0000000000000038" : {
+    "id" : 38,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1990-01-25",
+    "totalAmount" : 10
+  },
+  "0000000000000035" : {
+    "id" : 35,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1967-03-10",
+    "totalAmount" : 10
+  },
+  "0000000000000079" : {
+    "id" : 79,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1966-09-29",
+    "totalAmount" : 10
+  },
+  "0000000000000036" : {
+    "id" : 36,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1984-02-07",
+    "totalAmount" : 10
+  },
+  "0000000000000033" : {
+    "id" : 33,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1963-06-13",
+    "totalAmount" : 10
+  },
+  "0000000000000077" : {
+    "id" : 77,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1989-03-04",
+    "totalAmount" : 10
+  },
+  "0000000000000034" : {
+    "id" : 34,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1975-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000078" : {
+    "id" : 78,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1978-12-21",
+    "totalAmount" : 10
+  },
+  "0000000000000031" : {
+    "id" : 31,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1992-05-16",
+    "totalAmount" : 10
+  },
+  "0000000000000075" : {
+    "id" : 75,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1993-07-23",
+    "totalAmount" : 10
+  },
+  "0000000000000032" : {
+    "id" : 32,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1972-08-13",
+    "totalAmount" : 10
+  },
+  "0000000000000076" : {
+    "id" : 76,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1970-10-22",
+    "totalAmount" : 10
+  },
+  "0000000000000073" : {
+    "id" : 73,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1979-07-20",
+    "totalAmount" : 10
+  },
+  "0000000000000030" : {
+    "id" : 30,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1984-03-24",
+    "totalAmount" : 10
+  },
+  "0000000000000074" : {
+    "id" : 74,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1997-05-26",
+    "totalAmount" : 10
+  },
+  "0000000000000071" : {
+    "id" : 71,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1992-11-01",
+    "totalAmount" : 10
+  },
+  "0000000000000072" : {
+    "id" : 72,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1968-12-22",
+    "totalAmount" : 10
+  },
+  "0000000000000070" : {
+    "id" : 70,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1967-02-25",
+    "totalAmount" : 10
+  },
+  "0000000000000028" : {
+    "id" : 28,
+    "firstName" : "Florin",
+    "lastName" : "Popa",
+    "birthday" : "1959-09-28",
+    "totalAmount" : 10
+  },
+  "0000000000000029" : {
+    "id" : 29,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1970-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000026" : {
+    "id" : 26,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1966-05-05",
+    "totalAmount" : 10
+  },
+  "0000000000000027" : {
+    "id" : 27,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "2000-03-05",
+    "totalAmount" : 10
+  },
+  "0000000000000024" : {
+    "id" : 24,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1969-10-16",
+    "totalAmount" : 10
+  },
+  "0000000000000068" : {
+    "id" : 68,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1967-08-07",
+    "totalAmount" : 10
+  },
+  "0000000000000025" : {
+    "id" : 25,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "1962-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000069" : {
+    "id" : 69,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1985-04-03",
+    "totalAmount" : 10
+  },
+  "0000000000000022" : {
+    "id" : 22,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1998-09-09",
+    "totalAmount" : 10
+  },
+  "0000000000000066" : {
+    "id" : 66,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1977-07-31",
+    "totalAmount" : 10
+  },
+  "0000000000000023" : {
+    "id" : 23,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1984-01-02",
+    "totalAmount" : 10
+  },
+  "0000000000000067" : {
+    "id" : 67,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1965-12-18",
+    "totalAmount" : 10
+  },
+  "0000000000000020" : {
+    "id" : 20,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1967-07-28",
+    "totalAmount" : 10
+  },
+  "0000000000000064" : {
+    "id" : 64,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1956-08-24",
+    "totalAmount" : 10
+  },
+  "0000000000000021" : {
+    "id" : 21,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1969-11-17",
+    "totalAmount" : 10
+  },
+  "0000000000000065" : {
+    "id" : 65,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1989-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000062" : {
+    "id" : 62,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1997-07-13",
+    "totalAmount" : 10
+  },
+  "0000000000000063" : {
+    "id" : 63,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1985-01-08",
+    "totalAmount" : 10
+  },
+  "0000000000000060" : {
+    "id" : 60,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1973-10-19",
+    "totalAmount" : 10
+  },
+  "0000000000000061" : {
+    "id" : 61,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1958-08-30",
+    "totalAmount" : 10
+  },
+  "0000000000000017" : {
+    "id" : 17,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1972-08-26",
+    "totalAmount" : 10
+  },
+  "0000000000000018" : {
+    "id" : 18,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1957-10-24",
+    "totalAmount" : 10
+  },
+  "0000000000000015" : {
+    "id" : 15,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1991-01-05",
+    "totalAmount" : 10
+  },
+  "0000000000000059" : {
+    "id" : 59,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1966-10-14",
+    "totalAmount" : 10
+  },
+  "0000000000000016" : {
+    "id" : 16,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1976-10-03",
+    "totalAmount" : 10
+  },
+  "0000000000000013" : {
+    "id" : 13,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1966-09-09",
+    "totalAmount" : 10
+  },
+  "0000000000000057" : {
+    "id" : 57,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1986-05-31",
+    "totalAmount" : 10
+  },
+  "0000000000000014" : {
+    "id" : 14,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1971-09-12",
+    "totalAmount" : 10
+  },
+  "0000000000000058" : {
+    "id" : 58,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1997-02-13",
+    "totalAmount" : 10
+  },
+  "0000000000000011" : {
+    "id" : 11,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1978-01-08",
+    "totalAmount" : 10
+  },
+  "0000000000000055" : {
+    "id" : 55,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-05-05",
+    "totalAmount" : 10
+  },
+  "0000000000000012" : {
+    "id" : 12,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1975-05-25",
+    "totalAmount" : 10
+  },
+  "0000000000000056" : {
+    "id" : 56,
+    "firstName" : "Alex",
+    "lastName" : "Ene",
+    "birthday" : "1967-03-14",
+    "totalAmount" : 10
+  },
+  "0000000000000019" : {
+    "id" : 19,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1978-04-11",
+    "totalAmount" : 10
+  },
+  "0000000000000090" : {
+    "id" : 90,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1984-07-07",
+    "totalAmount" : 10
+  },
+  "0000000000000053" : {
+    "id" : 53,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1957-06-27",
+    "totalAmount" : 10
+  },
+  "0000000000000010" : {
+    "id" : 10,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1989-04-14",
+    "totalAmount" : 10
+  },
+  "0000000000000054" : {
+    "id" : 54,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1994-04-09",
+    "totalAmount" : 10
+  },
+  "0000000000000051" : {
+    "id" : 51,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1982-12-14",
+    "totalAmount" : 10
+  },
+  "0000000000000095" : {
+    "id" : 95,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1959-10-06",
+    "totalAmount" : 10
+  },
+  "0000000000000052" : {
+    "id" : 52,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1970-03-15",
+    "totalAmount" : 10
+  },
+  "0000000000000093" : {
+    "id" : 93,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1957-10-30",
+    "totalAmount" : 10
+  },
+  "0000000000000050" : {
+    "id" : 50,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1999-05-26",
+    "totalAmount" : 10
+  },
+  "0000000000000094" : {
+    "id" : 94,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1994-04-20",
+    "totalAmount" : 10
+  },
+  "0000000000000091" : {
+    "id" : 91,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1989-06-15",
+    "totalAmount" : 10
+  },
+  "0000000000000092" : {
+    "id" : 92,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1979-03-24",
+    "totalAmount" : 10
+  },
+  "0000000000000006" : {
+    "id" : 6,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1957-03-15",
+    "totalAmount" : 10
+  },
+  "0000000000000007" : {
+    "id" : 7,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1976-06-21",
+    "totalAmount" : 10
+  },
+  "0000000000000004" : {
+    "id" : 4,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1960-08-14",
+    "totalAmount" : 10
+  },
+  "0000000000000048" : {
+    "id" : 48,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1973-08-23",
+    "totalAmount" : 10
+  },
+  "0000000000000005" : {
+    "id" : 5,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1965-12-27",
+    "totalAmount" : 10
+  },
+  "0000000000000049" : {
+    "id" : 49,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "1973-10-16",
+    "totalAmount" : 10
+  },
+  "0000000000000002" : {
+    "id" : 2,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1961-12-20",
+    "totalAmount" : 10
+  },
+  "0000000000000046" : {
+    "id" : 46,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1976-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000003" : {
+    "id" : 3,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1981-05-29",
+    "totalAmount" : 10
+  },
+  "0000000000000047" : {
+    "id" : 47,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1976-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000044" : {
+    "id" : 44,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1986-11-25",
+    "totalAmount" : 10
+  },
+  "0000000000000088" : {
+    "id" : 88,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1986-11-22",
+    "totalAmount" : 10
+  },
+  "0000000000000001" : {
+    "id" : 1,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1959-01-28",
+    "totalAmount" : 10
+  },
+  "0000000000000045" : {
+    "id" : 45,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-12-14",
+    "totalAmount" : 10
+  },
+  "0000000000000089" : {
+    "id" : 89,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1999-01-30",
+    "totalAmount" : 10
+  },
+  "0000000000000008" : {
+    "id" : 8,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1960-01-09",
+    "totalAmount" : 10
+  },
+  "0000000000000009" : {
+    "id" : 9,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1983-08-09",
+    "totalAmount" : 10
+  }
+}
+2020-07-09 19:33:01 DEBUG App:46 - Creating a list of users
+2020-07-09 19:33:01 DEBUG App:38 - Writing text to file: {
+  "0000000000000042" : {
+    "id" : 42,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1966-09-03",
+    "totalAmount" : 10
+  },
+  "0000000000000086" : {
+    "id" : 86,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1978-12-24",
+    "totalAmount" : 10
+  },
+  "0000000000000043" : {
+    "id" : 43,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1984-09-25",
+    "totalAmount" : 10
+  },
+  "0000000000000087" : {
+    "id" : 87,
+    "firstName" : "Florin",
+    "lastName" : "Gheorghe",
+    "birthday" : "1991-05-21",
+    "totalAmount" : 10
+  },
+  "0000000000000040" : {
+    "id" : 40,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "2000-07-03",
+    "totalAmount" : 10
+  },
+  "0000000000000084" : {
+    "id" : 84,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1973-09-27",
+    "totalAmount" : 10
+  },
+  "0000000000000041" : {
+    "id" : 41,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1992-10-02",
+    "totalAmount" : 10
+  },
+  "0000000000000085" : {
+    "id" : 85,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1976-10-24",
+    "totalAmount" : 10
+  },
+  "0000000000000082" : {
+    "id" : 82,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1956-04-04",
+    "totalAmount" : 10
+  },
+  "0000000000000083" : {
+    "id" : 83,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1977-01-30",
+    "totalAmount" : 10
+  },
+  "0000000000000080" : {
+    "id" : 80,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1994-07-28",
+    "totalAmount" : 10
+  },
+  "0000000000000081" : {
+    "id" : 81,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1989-01-07",
+    "totalAmount" : 10
+  },
+  "0000000000000039" : {
+    "id" : 39,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1994-03-19",
+    "totalAmount" : 10
+  },
+  "0000000000000037" : {
+    "id" : 37,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1988-06-21",
+    "totalAmount" : 10
+  },
+  "0000000000000038" : {
+    "id" : 38,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1990-01-25",
+    "totalAmount" : 10
+  },
+  "0000000000000035" : {
+    "id" : 35,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1967-03-10",
+    "totalAmount" : 10
+  },
+  "0000000000000079" : {
+    "id" : 79,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1966-09-29",
+    "totalAmount" : 10
+  },
+  "0000000000000036" : {
+    "id" : 36,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1984-02-07",
+    "totalAmount" : 10
+  },
+  "0000000000000033" : {
+    "id" : 33,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1963-06-13",
+    "totalAmount" : 10
+  },
+  "0000000000000077" : {
+    "id" : 77,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1989-03-04",
+    "totalAmount" : 10
+  },
+  "0000000000000034" : {
+    "id" : 34,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1975-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000078" : {
+    "id" : 78,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1978-12-21",
+    "totalAmount" : 10
+  },
+  "0000000000000031" : {
+    "id" : 31,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1992-05-16",
+    "totalAmount" : 10
+  },
+  "0000000000000075" : {
+    "id" : 75,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1993-07-23",
+    "totalAmount" : 10
+  },
+  "0000000000000032" : {
+    "id" : 32,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1972-08-13",
+    "totalAmount" : 10
+  },
+  "0000000000000076" : {
+    "id" : 76,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1970-10-22",
+    "totalAmount" : 10
+  },
+  "0000000000000073" : {
+    "id" : 73,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1979-07-20",
+    "totalAmount" : 10
+  },
+  "0000000000000030" : {
+    "id" : 30,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1984-03-24",
+    "totalAmount" : 10
+  },
+  "0000000000000074" : {
+    "id" : 74,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1997-05-26",
+    "totalAmount" : 10
+  },
+  "0000000000000071" : {
+    "id" : 71,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1992-11-01",
+    "totalAmount" : 10
+  },
+  "0000000000000072" : {
+    "id" : 72,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1968-12-22",
+    "totalAmount" : 10
+  },
+  "0000000000000070" : {
+    "id" : 70,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1967-02-25",
+    "totalAmount" : 10
+  },
+  "0000000000000028" : {
+    "id" : 28,
+    "firstName" : "Florin",
+    "lastName" : "Popa",
+    "birthday" : "1959-09-28",
+    "totalAmount" : 10
+  },
+  "0000000000000029" : {
+    "id" : 29,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1970-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000026" : {
+    "id" : 26,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1966-05-05",
+    "totalAmount" : 10
+  },
+  "0000000000000027" : {
+    "id" : 27,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "2000-03-05",
+    "totalAmount" : 10
+  },
+  "0000000000000024" : {
+    "id" : 24,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1969-10-16",
+    "totalAmount" : 10
+  },
+  "0000000000000068" : {
+    "id" : 68,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1967-08-07",
+    "totalAmount" : 10
+  },
+  "0000000000000025" : {
+    "id" : 25,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "1962-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000069" : {
+    "id" : 69,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1985-04-03",
+    "totalAmount" : 10
+  },
+  "0000000000000022" : {
+    "id" : 22,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1998-09-09",
+    "totalAmount" : 10
+  },
+  "0000000000000066" : {
+    "id" : 66,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1977-07-31",
+    "totalAmount" : 10
+  },
+  "0000000000000023" : {
+    "id" : 23,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1984-01-02",
+    "totalAmount" : 10
+  },
+  "0000000000000067" : {
+    "id" : 67,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1965-12-18",
+    "totalAmount" : 10
+  },
+  "0000000000000020" : {
+    "id" : 20,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1967-07-28",
+    "totalAmount" : 10
+  },
+  "0000000000000064" : {
+    "id" : 64,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1956-08-24",
+    "totalAmount" : 10
+  },
+  "0000000000000021" : {
+    "id" : 21,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1969-11-17",
+    "totalAmount" : 10
+  },
+  "0000000000000065" : {
+    "id" : 65,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1989-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000062" : {
+    "id" : 62,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1997-07-13",
+    "totalAmount" : 10
+  },
+  "0000000000000063" : {
+    "id" : 63,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1985-01-08",
+    "totalAmount" : 10
+  },
+  "0000000000000060" : {
+    "id" : 60,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1973-10-19",
+    "totalAmount" : 10
+  },
+  "0000000000000061" : {
+    "id" : 61,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1958-08-30",
+    "totalAmount" : 10
+  },
+  "0000000000000017" : {
+    "id" : 17,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1972-08-26",
+    "totalAmount" : 10
+  },
+  "0000000000000018" : {
+    "id" : 18,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1957-10-24",
+    "totalAmount" : 10
+  },
+  "0000000000000015" : {
+    "id" : 15,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1991-01-05",
+    "totalAmount" : 10
+  },
+  "0000000000000059" : {
+    "id" : 59,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1966-10-14",
+    "totalAmount" : 10
+  },
+  "0000000000000016" : {
+    "id" : 16,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1976-10-03",
+    "totalAmount" : 10
+  },
+  "0000000000000013" : {
+    "id" : 13,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1966-09-09",
+    "totalAmount" : 10
+  },
+  "0000000000000057" : {
+    "id" : 57,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1986-05-31",
+    "totalAmount" : 10
+  },
+  "0000000000000014" : {
+    "id" : 14,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1971-09-12",
+    "totalAmount" : 10
+  },
+  "0000000000000058" : {
+    "id" : 58,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1997-02-13",
+    "totalAmount" : 10
+  },
+  "0000000000000011" : {
+    "id" : 11,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1978-01-08",
+    "totalAmount" : 10
+  },
+  "0000000000000055" : {
+    "id" : 55,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-05-05",
+    "totalAmount" : 10
+  },
+  "0000000000000012" : {
+    "id" : 12,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1975-05-25",
+    "totalAmount" : 10
+  },
+  "0000000000000056" : {
+    "id" : 56,
+    "firstName" : "Alex",
+    "lastName" : "Ene",
+    "birthday" : "1967-03-14",
+    "totalAmount" : 10
+  },
+  "0000000000000019" : {
+    "id" : 19,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1978-04-11",
+    "totalAmount" : 10
+  },
+  "0000000000000090" : {
+    "id" : 90,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1984-07-07",
+    "totalAmount" : 10
+  },
+  "0000000000000053" : {
+    "id" : 53,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1957-06-27",
+    "totalAmount" : 10
+  },
+  "0000000000000010" : {
+    "id" : 10,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1989-04-14",
+    "totalAmount" : 10
+  },
+  "0000000000000054" : {
+    "id" : 54,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1994-04-09",
+    "totalAmount" : 10
+  },
+  "0000000000000051" : {
+    "id" : 51,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1982-12-14",
+    "totalAmount" : 10
+  },
+  "0000000000000095" : {
+    "id" : 95,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1959-10-06",
+    "totalAmount" : 10
+  },
+  "0000000000000052" : {
+    "id" : 52,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1970-03-15",
+    "totalAmount" : 10
+  },
+  "0000000000000096" : {
+    "id" : 96,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1961-05-17",
+    "totalAmount" : 10
+  },
+  "0000000000000093" : {
+    "id" : 93,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1957-10-30",
+    "totalAmount" : 10
+  },
+  "0000000000000050" : {
+    "id" : 50,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1999-05-26",
+    "totalAmount" : 10
+  },
+  "0000000000000094" : {
+    "id" : 94,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1994-04-20",
+    "totalAmount" : 10
+  },
+  "0000000000000091" : {
+    "id" : 91,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1989-06-15",
+    "totalAmount" : 10
+  },
+  "0000000000000092" : {
+    "id" : 92,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1979-03-24",
+    "totalAmount" : 10
+  },
+  "0000000000000006" : {
+    "id" : 6,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1957-03-15",
+    "totalAmount" : 10
+  },
+  "0000000000000007" : {
+    "id" : 7,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1976-06-21",
+    "totalAmount" : 10
+  },
+  "0000000000000004" : {
+    "id" : 4,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1960-08-14",
+    "totalAmount" : 10
+  },
+  "0000000000000048" : {
+    "id" : 48,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1973-08-23",
+    "totalAmount" : 10
+  },
+  "0000000000000005" : {
+    "id" : 5,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1965-12-27",
+    "totalAmount" : 10
+  },
+  "0000000000000049" : {
+    "id" : 49,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "1973-10-16",
+    "totalAmount" : 10
+  },
+  "0000000000000002" : {
+    "id" : 2,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1961-12-20",
+    "totalAmount" : 10
+  },
+  "0000000000000046" : {
+    "id" : 46,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1976-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000003" : {
+    "id" : 3,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1981-05-29",
+    "totalAmount" : 10
+  },
+  "0000000000000047" : {
+    "id" : 47,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1976-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000044" : {
+    "id" : 44,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1986-11-25",
+    "totalAmount" : 10
+  },
+  "0000000000000088" : {
+    "id" : 88,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1986-11-22",
+    "totalAmount" : 10
+  },
+  "0000000000000001" : {
+    "id" : 1,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1959-01-28",
+    "totalAmount" : 10
+  },
+  "0000000000000045" : {
+    "id" : 45,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-12-14",
+    "totalAmount" : 10
+  },
+  "0000000000000089" : {
+    "id" : 89,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1999-01-30",
+    "totalAmount" : 10
+  },
+  "0000000000000008" : {
+    "id" : 8,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1960-01-09",
+    "totalAmount" : 10
+  },
+  "0000000000000009" : {
+    "id" : 9,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1983-08-09",
+    "totalAmount" : 10
+  }
+}
+2020-07-09 19:33:01 DEBUG App:46 - Creating a list of users
+2020-07-09 19:33:01 DEBUG App:38 - Writing text to file: {
+  "0000000000000042" : {
+    "id" : 42,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1966-09-03",
+    "totalAmount" : 10
+  },
+  "0000000000000043" : {
+    "id" : 43,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1984-09-25",
+    "totalAmount" : 10
+  },
+  "0000000000000040" : {
+    "id" : 40,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "2000-07-03",
+    "totalAmount" : 10
+  },
+  "0000000000000041" : {
+    "id" : 41,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1992-10-02",
+    "totalAmount" : 10
+  },
+  "0000000000000039" : {
+    "id" : 39,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1994-03-19",
+    "totalAmount" : 10
+  },
+  "0000000000000037" : {
+    "id" : 37,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1988-06-21",
+    "totalAmount" : 10
+  },
+  "0000000000000038" : {
+    "id" : 38,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1990-01-25",
+    "totalAmount" : 10
+  },
+  "0000000000000035" : {
+    "id" : 35,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1967-03-10",
+    "totalAmount" : 10
+  },
+  "0000000000000036" : {
+    "id" : 36,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1984-02-07",
+    "totalAmount" : 10
+  },
+  "0000000000000033" : {
+    "id" : 33,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1963-06-13",
+    "totalAmount" : 10
+  },
+  "0000000000000034" : {
+    "id" : 34,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1975-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000031" : {
+    "id" : 31,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1992-05-16",
+    "totalAmount" : 10
+  },
+  "0000000000000032" : {
+    "id" : 32,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1972-08-13",
+    "totalAmount" : 10
+  },
+  "0000000000000030" : {
+    "id" : 30,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1984-03-24",
+    "totalAmount" : 10
+  },
+  "0000000000000028" : {
+    "id" : 28,
+    "firstName" : "Florin",
+    "lastName" : "Popa",
+    "birthday" : "1959-09-28",
+    "totalAmount" : 10
+  },
+  "0000000000000029" : {
+    "id" : 29,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1970-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000026" : {
+    "id" : 26,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1966-05-05",
+    "totalAmount" : 10
+  },
+  "0000000000000027" : {
+    "id" : 27,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "2000-03-05",
+    "totalAmount" : 10
+  },
+  "0000000000000024" : {
+    "id" : 24,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1969-10-16",
+    "totalAmount" : 10
+  },
+  "0000000000000025" : {
+    "id" : 25,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "1962-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000022" : {
+    "id" : 22,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1998-09-09",
+    "totalAmount" : 10
+  },
+  "0000000000000023" : {
+    "id" : 23,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1984-01-02",
+    "totalAmount" : 10
+  },
+  "0000000000000020" : {
+    "id" : 20,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1967-07-28",
+    "totalAmount" : 10
+  },
+  "0000000000000021" : {
+    "id" : 21,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1969-11-17",
+    "totalAmount" : 10
+  },
+  "0000000000000017" : {
+    "id" : 17,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1972-08-26",
+    "totalAmount" : 10
+  },
+  "0000000000000018" : {
+    "id" : 18,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1957-10-24",
+    "totalAmount" : 10
+  },
+  "0000000000000015" : {
+    "id" : 15,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1991-01-05",
+    "totalAmount" : 10
+  },
+  "0000000000000016" : {
+    "id" : 16,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1976-10-03",
+    "totalAmount" : 10
+  },
+  "0000000000000013" : {
+    "id" : 13,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1966-09-09",
+    "totalAmount" : 10
+  },
+  "0000000000000014" : {
+    "id" : 14,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1971-09-12",
+    "totalAmount" : 10
+  },
+  "0000000000000011" : {
+    "id" : 11,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1978-01-08",
+    "totalAmount" : 10
+  },
+  "0000000000000012" : {
+    "id" : 12,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1975-05-25",
+    "totalAmount" : 10
+  },
+  "0000000000000019" : {
+    "id" : 19,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1978-04-11",
+    "totalAmount" : 10
+  },
+  "0000000000000090" : {
+    "id" : 90,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1984-07-07",
+    "totalAmount" : 10
+  },
+  "0000000000000097" : {
+    "id" : 97,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-09-19",
+    "totalAmount" : 10
+  },
+  "0000000000000010" : {
+    "id" : 10,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1989-04-14",
+    "totalAmount" : 10
+  },
+  "0000000000000095" : {
+    "id" : 95,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1959-10-06",
+    "totalAmount" : 10
+  },
+  "0000000000000096" : {
+    "id" : 96,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1961-05-17",
+    "totalAmount" : 10
+  },
+  "0000000000000093" : {
+    "id" : 93,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1957-10-30",
+    "totalAmount" : 10
+  },
+  "0000000000000094" : {
+    "id" : 94,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1994-04-20",
+    "totalAmount" : 10
+  },
+  "0000000000000091" : {
+    "id" : 91,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1989-06-15",
+    "totalAmount" : 10
+  },
+  "0000000000000092" : {
+    "id" : 92,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1979-03-24",
+    "totalAmount" : 10
+  },
+  "0000000000000006" : {
+    "id" : 6,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1957-03-15",
+    "totalAmount" : 10
+  },
+  "0000000000000007" : {
+    "id" : 7,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1976-06-21",
+    "totalAmount" : 10
+  },
+  "0000000000000004" : {
+    "id" : 4,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1960-08-14",
+    "totalAmount" : 10
+  },
+  "0000000000000005" : {
+    "id" : 5,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1965-12-27",
+    "totalAmount" : 10
+  },
+  "0000000000000002" : {
+    "id" : 2,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1961-12-20",
+    "totalAmount" : 10
+  },
+  "0000000000000003" : {
+    "id" : 3,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1981-05-29",
+    "totalAmount" : 10
+  },
+  "0000000000000088" : {
+    "id" : 88,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1986-11-22",
+    "totalAmount" : 10
+  },
+  "0000000000000001" : {
+    "id" : 1,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1959-01-28",
+    "totalAmount" : 10
+  },
+  "0000000000000089" : {
+    "id" : 89,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1999-01-30",
+    "totalAmount" : 10
+  },
+  "0000000000000008" : {
+    "id" : 8,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1960-01-09",
+    "totalAmount" : 10
+  },
+  "0000000000000009" : {
+    "id" : 9,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1983-08-09",
+    "totalAmount" : 10
+  },
+  "0000000000000086" : {
+    "id" : 86,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1978-12-24",
+    "totalAmount" : 10
+  },
+  "0000000000000087" : {
+    "id" : 87,
+    "firstName" : "Florin",
+    "lastName" : "Gheorghe",
+    "birthday" : "1991-05-21",
+    "totalAmount" : 10
+  },
+  "0000000000000084" : {
+    "id" : 84,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1973-09-27",
+    "totalAmount" : 10
+  },
+  "0000000000000085" : {
+    "id" : 85,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1976-10-24",
+    "totalAmount" : 10
+  },
+  "0000000000000082" : {
+    "id" : 82,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1956-04-04",
+    "totalAmount" : 10
+  },
+  "0000000000000083" : {
+    "id" : 83,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1977-01-30",
+    "totalAmount" : 10
+  },
+  "0000000000000080" : {
+    "id" : 80,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1994-07-28",
+    "totalAmount" : 10
+  },
+  "0000000000000081" : {
+    "id" : 81,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1989-01-07",
+    "totalAmount" : 10
+  },
+  "0000000000000079" : {
+    "id" : 79,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1966-09-29",
+    "totalAmount" : 10
+  },
+  "0000000000000077" : {
+    "id" : 77,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1989-03-04",
+    "totalAmount" : 10
+  },
+  "0000000000000078" : {
+    "id" : 78,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1978-12-21",
+    "totalAmount" : 10
+  },
+  "0000000000000075" : {
+    "id" : 75,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1993-07-23",
+    "totalAmount" : 10
+  },
+  "0000000000000076" : {
+    "id" : 76,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1970-10-22",
+    "totalAmount" : 10
+  },
+  "0000000000000073" : {
+    "id" : 73,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1979-07-20",
+    "totalAmount" : 10
+  },
+  "0000000000000074" : {
+    "id" : 74,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1997-05-26",
+    "totalAmount" : 10
+  },
+  "0000000000000071" : {
+    "id" : 71,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1992-11-01",
+    "totalAmount" : 10
+  },
+  "0000000000000072" : {
+    "id" : 72,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1968-12-22",
+    "totalAmount" : 10
+  },
+  "0000000000000070" : {
+    "id" : 70,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1967-02-25",
+    "totalAmount" : 10
+  },
+  "0000000000000068" : {
+    "id" : 68,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1967-08-07",
+    "totalAmount" : 10
+  },
+  "0000000000000069" : {
+    "id" : 69,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1985-04-03",
+    "totalAmount" : 10
+  },
+  "0000000000000066" : {
+    "id" : 66,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1977-07-31",
+    "totalAmount" : 10
+  },
+  "0000000000000067" : {
+    "id" : 67,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1965-12-18",
+    "totalAmount" : 10
+  },
+  "0000000000000064" : {
+    "id" : 64,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1956-08-24",
+    "totalAmount" : 10
+  },
+  "0000000000000065" : {
+    "id" : 65,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1989-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000062" : {
+    "id" : 62,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1997-07-13",
+    "totalAmount" : 10
+  },
+  "0000000000000063" : {
+    "id" : 63,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1985-01-08",
+    "totalAmount" : 10
+  },
+  "0000000000000060" : {
+    "id" : 60,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1973-10-19",
+    "totalAmount" : 10
+  },
+  "0000000000000061" : {
+    "id" : 61,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1958-08-30",
+    "totalAmount" : 10
+  },
+  "0000000000000059" : {
+    "id" : 59,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1966-10-14",
+    "totalAmount" : 10
+  },
+  "0000000000000057" : {
+    "id" : 57,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1986-05-31",
+    "totalAmount" : 10
+  },
+  "0000000000000058" : {
+    "id" : 58,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1997-02-13",
+    "totalAmount" : 10
+  },
+  "0000000000000055" : {
+    "id" : 55,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-05-05",
+    "totalAmount" : 10
+  },
+  "0000000000000056" : {
+    "id" : 56,
+    "firstName" : "Alex",
+    "lastName" : "Ene",
+    "birthday" : "1967-03-14",
+    "totalAmount" : 10
+  },
+  "0000000000000053" : {
+    "id" : 53,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1957-06-27",
+    "totalAmount" : 10
+  },
+  "0000000000000054" : {
+    "id" : 54,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1994-04-09",
+    "totalAmount" : 10
+  },
+  "0000000000000051" : {
+    "id" : 51,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1982-12-14",
+    "totalAmount" : 10
+  },
+  "0000000000000052" : {
+    "id" : 52,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1970-03-15",
+    "totalAmount" : 10
+  },
+  "0000000000000050" : {
+    "id" : 50,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1999-05-26",
+    "totalAmount" : 10
+  },
+  "0000000000000048" : {
+    "id" : 48,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1973-08-23",
+    "totalAmount" : 10
+  },
+  "0000000000000049" : {
+    "id" : 49,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "1973-10-16",
+    "totalAmount" : 10
+  },
+  "0000000000000046" : {
+    "id" : 46,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1976-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000047" : {
+    "id" : 47,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1976-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000044" : {
+    "id" : 44,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1986-11-25",
+    "totalAmount" : 10
+  },
+  "0000000000000045" : {
+    "id" : 45,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-12-14",
+    "totalAmount" : 10
+  }
+}
+2020-07-09 19:33:01 DEBUG App:46 - Creating a list of users
+2020-07-09 19:33:01 DEBUG App:38 - Writing text to file: {
+  "0000000000000042" : {
+    "id" : 42,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1966-09-03",
+    "totalAmount" : 10
+  },
+  "0000000000000043" : {
+    "id" : 43,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1984-09-25",
+    "totalAmount" : 10
+  },
+  "0000000000000040" : {
+    "id" : 40,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "2000-07-03",
+    "totalAmount" : 10
+  },
+  "0000000000000041" : {
+    "id" : 41,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1992-10-02",
+    "totalAmount" : 10
+  },
+  "0000000000000039" : {
+    "id" : 39,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1994-03-19",
+    "totalAmount" : 10
+  },
+  "0000000000000037" : {
+    "id" : 37,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1988-06-21",
+    "totalAmount" : 10
+  },
+  "0000000000000038" : {
+    "id" : 38,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1990-01-25",
+    "totalAmount" : 10
+  },
+  "0000000000000035" : {
+    "id" : 35,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1967-03-10",
+    "totalAmount" : 10
+  },
+  "0000000000000036" : {
+    "id" : 36,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1984-02-07",
+    "totalAmount" : 10
+  },
+  "0000000000000033" : {
+    "id" : 33,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1963-06-13",
+    "totalAmount" : 10
+  },
+  "0000000000000034" : {
+    "id" : 34,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1975-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000031" : {
+    "id" : 31,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1992-05-16",
+    "totalAmount" : 10
+  },
+  "0000000000000032" : {
+    "id" : 32,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1972-08-13",
+    "totalAmount" : 10
+  },
+  "0000000000000030" : {
+    "id" : 30,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1984-03-24",
+    "totalAmount" : 10
+  },
+  "0000000000000028" : {
+    "id" : 28,
+    "firstName" : "Florin",
+    "lastName" : "Popa",
+    "birthday" : "1959-09-28",
+    "totalAmount" : 10
+  },
+  "0000000000000029" : {
+    "id" : 29,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1970-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000026" : {
+    "id" : 26,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1966-05-05",
+    "totalAmount" : 10
+  },
+  "0000000000000027" : {
+    "id" : 27,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "2000-03-05",
+    "totalAmount" : 10
+  },
+  "0000000000000024" : {
+    "id" : 24,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1969-10-16",
+    "totalAmount" : 10
+  },
+  "0000000000000025" : {
+    "id" : 25,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "1962-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000022" : {
+    "id" : 22,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1998-09-09",
+    "totalAmount" : 10
+  },
+  "0000000000000023" : {
+    "id" : 23,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1984-01-02",
+    "totalAmount" : 10
+  },
+  "0000000000000020" : {
+    "id" : 20,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1967-07-28",
+    "totalAmount" : 10
+  },
+  "0000000000000021" : {
+    "id" : 21,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1969-11-17",
+    "totalAmount" : 10
+  },
+  "0000000000000017" : {
+    "id" : 17,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1972-08-26",
+    "totalAmount" : 10
+  },
+  "0000000000000018" : {
+    "id" : 18,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1957-10-24",
+    "totalAmount" : 10
+  },
+  "0000000000000015" : {
+    "id" : 15,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1991-01-05",
+    "totalAmount" : 10
+  },
+  "0000000000000016" : {
+    "id" : 16,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1976-10-03",
+    "totalAmount" : 10
+  },
+  "0000000000000013" : {
+    "id" : 13,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1966-09-09",
+    "totalAmount" : 10
+  },
+  "0000000000000014" : {
+    "id" : 14,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1971-09-12",
+    "totalAmount" : 10
+  },
+  "0000000000000011" : {
+    "id" : 11,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1978-01-08",
+    "totalAmount" : 10
+  },
+  "0000000000000012" : {
+    "id" : 12,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1975-05-25",
+    "totalAmount" : 10
+  },
+  "0000000000000019" : {
+    "id" : 19,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1978-04-11",
+    "totalAmount" : 10
+  },
+  "0000000000000090" : {
+    "id" : 90,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1984-07-07",
+    "totalAmount" : 10
+  },
+  "0000000000000097" : {
+    "id" : 97,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-09-19",
+    "totalAmount" : 10
+  },
+  "0000000000000010" : {
+    "id" : 10,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1989-04-14",
+    "totalAmount" : 10
+  },
+  "0000000000000098" : {
+    "id" : 98,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1970-02-06",
+    "totalAmount" : 10
+  },
+  "0000000000000095" : {
+    "id" : 95,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1959-10-06",
+    "totalAmount" : 10
+  },
+  "0000000000000096" : {
+    "id" : 96,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1961-05-17",
+    "totalAmount" : 10
+  },
+  "0000000000000093" : {
+    "id" : 93,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1957-10-30",
+    "totalAmount" : 10
+  },
+  "0000000000000094" : {
+    "id" : 94,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1994-04-20",
+    "totalAmount" : 10
+  },
+  "0000000000000091" : {
+    "id" : 91,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1989-06-15",
+    "totalAmount" : 10
+  },
+  "0000000000000092" : {
+    "id" : 92,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1979-03-24",
+    "totalAmount" : 10
+  },
+  "0000000000000006" : {
+    "id" : 6,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1957-03-15",
+    "totalAmount" : 10
+  },
+  "0000000000000007" : {
+    "id" : 7,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1976-06-21",
+    "totalAmount" : 10
+  },
+  "0000000000000004" : {
+    "id" : 4,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1960-08-14",
+    "totalAmount" : 10
+  },
+  "0000000000000005" : {
+    "id" : 5,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1965-12-27",
+    "totalAmount" : 10
+  },
+  "0000000000000002" : {
+    "id" : 2,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1961-12-20",
+    "totalAmount" : 10
+  },
+  "0000000000000003" : {
+    "id" : 3,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1981-05-29",
+    "totalAmount" : 10
+  },
+  "0000000000000088" : {
+    "id" : 88,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1986-11-22",
+    "totalAmount" : 10
+  },
+  "0000000000000001" : {
+    "id" : 1,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1959-01-28",
+    "totalAmount" : 10
+  },
+  "0000000000000089" : {
+    "id" : 89,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1999-01-30",
+    "totalAmount" : 10
+  },
+  "0000000000000008" : {
+    "id" : 8,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1960-01-09",
+    "totalAmount" : 10
+  },
+  "0000000000000009" : {
+    "id" : 9,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1983-08-09",
+    "totalAmount" : 10
+  },
+  "0000000000000086" : {
+    "id" : 86,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1978-12-24",
+    "totalAmount" : 10
+  },
+  "0000000000000087" : {
+    "id" : 87,
+    "firstName" : "Florin",
+    "lastName" : "Gheorghe",
+    "birthday" : "1991-05-21",
+    "totalAmount" : 10
+  },
+  "0000000000000084" : {
+    "id" : 84,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1973-09-27",
+    "totalAmount" : 10
+  },
+  "0000000000000085" : {
+    "id" : 85,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1976-10-24",
+    "totalAmount" : 10
+  },
+  "0000000000000082" : {
+    "id" : 82,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1956-04-04",
+    "totalAmount" : 10
+  },
+  "0000000000000083" : {
+    "id" : 83,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1977-01-30",
+    "totalAmount" : 10
+  },
+  "0000000000000080" : {
+    "id" : 80,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1994-07-28",
+    "totalAmount" : 10
+  },
+  "0000000000000081" : {
+    "id" : 81,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1989-01-07",
+    "totalAmount" : 10
+  },
+  "0000000000000079" : {
+    "id" : 79,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1966-09-29",
+    "totalAmount" : 10
+  },
+  "0000000000000077" : {
+    "id" : 77,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1989-03-04",
+    "totalAmount" : 10
+  },
+  "0000000000000078" : {
+    "id" : 78,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1978-12-21",
+    "totalAmount" : 10
+  },
+  "0000000000000075" : {
+    "id" : 75,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1993-07-23",
+    "totalAmount" : 10
+  },
+  "0000000000000076" : {
+    "id" : 76,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1970-10-22",
+    "totalAmount" : 10
+  },
+  "0000000000000073" : {
+    "id" : 73,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1979-07-20",
+    "totalAmount" : 10
+  },
+  "0000000000000074" : {
+    "id" : 74,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1997-05-26",
+    "totalAmount" : 10
+  },
+  "0000000000000071" : {
+    "id" : 71,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1992-11-01",
+    "totalAmount" : 10
+  },
+  "0000000000000072" : {
+    "id" : 72,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1968-12-22",
+    "totalAmount" : 10
+  },
+  "0000000000000070" : {
+    "id" : 70,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1967-02-25",
+    "totalAmount" : 10
+  },
+  "0000000000000068" : {
+    "id" : 68,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1967-08-07",
+    "totalAmount" : 10
+  },
+  "0000000000000069" : {
+    "id" : 69,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1985-04-03",
+    "totalAmount" : 10
+  },
+  "0000000000000066" : {
+    "id" : 66,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1977-07-31",
+    "totalAmount" : 10
+  },
+  "0000000000000067" : {
+    "id" : 67,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1965-12-18",
+    "totalAmount" : 10
+  },
+  "0000000000000064" : {
+    "id" : 64,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1956-08-24",
+    "totalAmount" : 10
+  },
+  "0000000000000065" : {
+    "id" : 65,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1989-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000062" : {
+    "id" : 62,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1997-07-13",
+    "totalAmount" : 10
+  },
+  "0000000000000063" : {
+    "id" : 63,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1985-01-08",
+    "totalAmount" : 10
+  },
+  "0000000000000060" : {
+    "id" : 60,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1973-10-19",
+    "totalAmount" : 10
+  },
+  "0000000000000061" : {
+    "id" : 61,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1958-08-30",
+    "totalAmount" : 10
+  },
+  "0000000000000059" : {
+    "id" : 59,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1966-10-14",
+    "totalAmount" : 10
+  },
+  "0000000000000057" : {
+    "id" : 57,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1986-05-31",
+    "totalAmount" : 10
+  },
+  "0000000000000058" : {
+    "id" : 58,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1997-02-13",
+    "totalAmount" : 10
+  },
+  "0000000000000055" : {
+    "id" : 55,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-05-05",
+    "totalAmount" : 10
+  },
+  "0000000000000056" : {
+    "id" : 56,
+    "firstName" : "Alex",
+    "lastName" : "Ene",
+    "birthday" : "1967-03-14",
+    "totalAmount" : 10
+  },
+  "0000000000000053" : {
+    "id" : 53,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1957-06-27",
+    "totalAmount" : 10
+  },
+  "0000000000000054" : {
+    "id" : 54,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1994-04-09",
+    "totalAmount" : 10
+  },
+  "0000000000000051" : {
+    "id" : 51,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1982-12-14",
+    "totalAmount" : 10
+  },
+  "0000000000000052" : {
+    "id" : 52,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1970-03-15",
+    "totalAmount" : 10
+  },
+  "0000000000000050" : {
+    "id" : 50,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1999-05-26",
+    "totalAmount" : 10
+  },
+  "0000000000000048" : {
+    "id" : 48,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1973-08-23",
+    "totalAmount" : 10
+  },
+  "0000000000000049" : {
+    "id" : 49,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "1973-10-16",
+    "totalAmount" : 10
+  },
+  "0000000000000046" : {
+    "id" : 46,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1976-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000047" : {
+    "id" : 47,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1976-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000044" : {
+    "id" : 44,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1986-11-25",
+    "totalAmount" : 10
+  },
+  "0000000000000045" : {
+    "id" : 45,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-12-14",
+    "totalAmount" : 10
+  }
+}
+2020-07-09 19:33:01 DEBUG App:46 - Creating a list of users
+2020-07-09 19:33:01 DEBUG App:38 - Writing text to file: {
+  "0000000000000042" : {
+    "id" : 42,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1966-09-03",
+    "totalAmount" : 10
+  },
+  "0000000000000043" : {
+    "id" : 43,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1984-09-25",
+    "totalAmount" : 10
+  },
+  "0000000000000040" : {
+    "id" : 40,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "2000-07-03",
+    "totalAmount" : 10
+  },
+  "0000000000000041" : {
+    "id" : 41,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1992-10-02",
+    "totalAmount" : 10
+  },
+  "0000000000000039" : {
+    "id" : 39,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1994-03-19",
+    "totalAmount" : 10
+  },
+  "0000000000000037" : {
+    "id" : 37,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1988-06-21",
+    "totalAmount" : 10
+  },
+  "0000000000000038" : {
+    "id" : 38,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1990-01-25",
+    "totalAmount" : 10
+  },
+  "0000000000000035" : {
+    "id" : 35,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1967-03-10",
+    "totalAmount" : 10
+  },
+  "0000000000000036" : {
+    "id" : 36,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1984-02-07",
+    "totalAmount" : 10
+  },
+  "0000000000000033" : {
+    "id" : 33,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1963-06-13",
+    "totalAmount" : 10
+  },
+  "0000000000000034" : {
+    "id" : 34,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1975-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000031" : {
+    "id" : 31,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1992-05-16",
+    "totalAmount" : 10
+  },
+  "0000000000000032" : {
+    "id" : 32,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1972-08-13",
+    "totalAmount" : 10
+  },
+  "0000000000000030" : {
+    "id" : 30,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1984-03-24",
+    "totalAmount" : 10
+  },
+  "0000000000000028" : {
+    "id" : 28,
+    "firstName" : "Florin",
+    "lastName" : "Popa",
+    "birthday" : "1959-09-28",
+    "totalAmount" : 10
+  },
+  "0000000000000029" : {
+    "id" : 29,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1970-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000026" : {
+    "id" : 26,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1966-05-05",
+    "totalAmount" : 10
+  },
+  "0000000000000027" : {
+    "id" : 27,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "2000-03-05",
+    "totalAmount" : 10
+  },
+  "0000000000000024" : {
+    "id" : 24,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1969-10-16",
+    "totalAmount" : 10
+  },
+  "0000000000000025" : {
+    "id" : 25,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "1962-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000022" : {
+    "id" : 22,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1998-09-09",
+    "totalAmount" : 10
+  },
+  "0000000000000023" : {
+    "id" : 23,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1984-01-02",
+    "totalAmount" : 10
+  },
+  "0000000000000020" : {
+    "id" : 20,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1967-07-28",
+    "totalAmount" : 10
+  },
+  "0000000000000021" : {
+    "id" : 21,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1969-11-17",
+    "totalAmount" : 10
+  },
+  "0000000000000017" : {
+    "id" : 17,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1972-08-26",
+    "totalAmount" : 10
+  },
+  "0000000000000018" : {
+    "id" : 18,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1957-10-24",
+    "totalAmount" : 10
+  },
+  "0000000000000015" : {
+    "id" : 15,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1991-01-05",
+    "totalAmount" : 10
+  },
+  "0000000000000016" : {
+    "id" : 16,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1976-10-03",
+    "totalAmount" : 10
+  },
+  "0000000000000013" : {
+    "id" : 13,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1966-09-09",
+    "totalAmount" : 10
+  },
+  "0000000000000014" : {
+    "id" : 14,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1971-09-12",
+    "totalAmount" : 10
+  },
+  "0000000000000011" : {
+    "id" : 11,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1978-01-08",
+    "totalAmount" : 10
+  },
+  "0000000000000099" : {
+    "id" : 99,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1975-04-17",
+    "totalAmount" : 10
+  },
+  "0000000000000012" : {
+    "id" : 12,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1975-05-25",
+    "totalAmount" : 10
+  },
+  "0000000000000019" : {
+    "id" : 19,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1978-04-11",
+    "totalAmount" : 10
+  },
+  "0000000000000090" : {
+    "id" : 90,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1984-07-07",
+    "totalAmount" : 10
+  },
+  "0000000000000097" : {
+    "id" : 97,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-09-19",
+    "totalAmount" : 10
+  },
+  "0000000000000010" : {
+    "id" : 10,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1989-04-14",
+    "totalAmount" : 10
+  },
+  "0000000000000098" : {
+    "id" : 98,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1970-02-06",
+    "totalAmount" : 10
+  },
+  "0000000000000095" : {
+    "id" : 95,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1959-10-06",
+    "totalAmount" : 10
+  },
+  "0000000000000096" : {
+    "id" : 96,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1961-05-17",
+    "totalAmount" : 10
+  },
+  "0000000000000093" : {
+    "id" : 93,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1957-10-30",
+    "totalAmount" : 10
+  },
+  "0000000000000094" : {
+    "id" : 94,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1994-04-20",
+    "totalAmount" : 10
+  },
+  "0000000000000091" : {
+    "id" : 91,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1989-06-15",
+    "totalAmount" : 10
+  },
+  "0000000000000092" : {
+    "id" : 92,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1979-03-24",
+    "totalAmount" : 10
+  },
+  "0000000000000006" : {
+    "id" : 6,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1957-03-15",
+    "totalAmount" : 10
+  },
+  "0000000000000007" : {
+    "id" : 7,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1976-06-21",
+    "totalAmount" : 10
+  },
+  "0000000000000004" : {
+    "id" : 4,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1960-08-14",
+    "totalAmount" : 10
+  },
+  "0000000000000005" : {
+    "id" : 5,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1965-12-27",
+    "totalAmount" : 10
+  },
+  "0000000000000002" : {
+    "id" : 2,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1961-12-20",
+    "totalAmount" : 10
+  },
+  "0000000000000003" : {
+    "id" : 3,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1981-05-29",
+    "totalAmount" : 10
+  },
+  "0000000000000088" : {
+    "id" : 88,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1986-11-22",
+    "totalAmount" : 10
+  },
+  "0000000000000001" : {
+    "id" : 1,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1959-01-28",
+    "totalAmount" : 10
+  },
+  "0000000000000089" : {
+    "id" : 89,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1999-01-30",
+    "totalAmount" : 10
+  },
+  "0000000000000008" : {
+    "id" : 8,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1960-01-09",
+    "totalAmount" : 10
+  },
+  "0000000000000009" : {
+    "id" : 9,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1983-08-09",
+    "totalAmount" : 10
+  },
+  "0000000000000086" : {
+    "id" : 86,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1978-12-24",
+    "totalAmount" : 10
+  },
+  "0000000000000087" : {
+    "id" : 87,
+    "firstName" : "Florin",
+    "lastName" : "Gheorghe",
+    "birthday" : "1991-05-21",
+    "totalAmount" : 10
+  },
+  "0000000000000084" : {
+    "id" : 84,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1973-09-27",
+    "totalAmount" : 10
+  },
+  "0000000000000085" : {
+    "id" : 85,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1976-10-24",
+    "totalAmount" : 10
+  },
+  "0000000000000082" : {
+    "id" : 82,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1956-04-04",
+    "totalAmount" : 10
+  },
+  "0000000000000083" : {
+    "id" : 83,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1977-01-30",
+    "totalAmount" : 10
+  },
+  "0000000000000080" : {
+    "id" : 80,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1994-07-28",
+    "totalAmount" : 10
+  },
+  "0000000000000081" : {
+    "id" : 81,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1989-01-07",
+    "totalAmount" : 10
+  },
+  "0000000000000079" : {
+    "id" : 79,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1966-09-29",
+    "totalAmount" : 10
+  },
+  "0000000000000077" : {
+    "id" : 77,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1989-03-04",
+    "totalAmount" : 10
+  },
+  "0000000000000078" : {
+    "id" : 78,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1978-12-21",
+    "totalAmount" : 10
+  },
+  "0000000000000075" : {
+    "id" : 75,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1993-07-23",
+    "totalAmount" : 10
+  },
+  "0000000000000076" : {
+    "id" : 76,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1970-10-22",
+    "totalAmount" : 10
+  },
+  "0000000000000073" : {
+    "id" : 73,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1979-07-20",
+    "totalAmount" : 10
+  },
+  "0000000000000074" : {
+    "id" : 74,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1997-05-26",
+    "totalAmount" : 10
+  },
+  "0000000000000071" : {
+    "id" : 71,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1992-11-01",
+    "totalAmount" : 10
+  },
+  "0000000000000072" : {
+    "id" : 72,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1968-12-22",
+    "totalAmount" : 10
+  },
+  "0000000000000070" : {
+    "id" : 70,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1967-02-25",
+    "totalAmount" : 10
+  },
+  "0000000000000068" : {
+    "id" : 68,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1967-08-07",
+    "totalAmount" : 10
+  },
+  "0000000000000069" : {
+    "id" : 69,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1985-04-03",
+    "totalAmount" : 10
+  },
+  "0000000000000066" : {
+    "id" : 66,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1977-07-31",
+    "totalAmount" : 10
+  },
+  "0000000000000067" : {
+    "id" : 67,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1965-12-18",
+    "totalAmount" : 10
+  },
+  "0000000000000064" : {
+    "id" : 64,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1956-08-24",
+    "totalAmount" : 10
+  },
+  "0000000000000065" : {
+    "id" : 65,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1989-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000062" : {
+    "id" : 62,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1997-07-13",
+    "totalAmount" : 10
+  },
+  "0000000000000063" : {
+    "id" : 63,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1985-01-08",
+    "totalAmount" : 10
+  },
+  "0000000000000060" : {
+    "id" : 60,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1973-10-19",
+    "totalAmount" : 10
+  },
+  "0000000000000061" : {
+    "id" : 61,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1958-08-30",
+    "totalAmount" : 10
+  },
+  "0000000000000059" : {
+    "id" : 59,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1966-10-14",
+    "totalAmount" : 10
+  },
+  "0000000000000057" : {
+    "id" : 57,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1986-05-31",
+    "totalAmount" : 10
+  },
+  "0000000000000058" : {
+    "id" : 58,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1997-02-13",
+    "totalAmount" : 10
+  },
+  "0000000000000055" : {
+    "id" : 55,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-05-05",
+    "totalAmount" : 10
+  },
+  "0000000000000056" : {
+    "id" : 56,
+    "firstName" : "Alex",
+    "lastName" : "Ene",
+    "birthday" : "1967-03-14",
+    "totalAmount" : 10
+  },
+  "0000000000000053" : {
+    "id" : 53,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1957-06-27",
+    "totalAmount" : 10
+  },
+  "0000000000000054" : {
+    "id" : 54,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1994-04-09",
+    "totalAmount" : 10
+  },
+  "0000000000000051" : {
+    "id" : 51,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1982-12-14",
+    "totalAmount" : 10
+  },
+  "0000000000000052" : {
+    "id" : 52,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1970-03-15",
+    "totalAmount" : 10
+  },
+  "0000000000000050" : {
+    "id" : 50,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1999-05-26",
+    "totalAmount" : 10
+  },
+  "0000000000000048" : {
+    "id" : 48,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1973-08-23",
+    "totalAmount" : 10
+  },
+  "0000000000000049" : {
+    "id" : 49,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "1973-10-16",
+    "totalAmount" : 10
+  },
+  "0000000000000046" : {
+    "id" : 46,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1976-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000047" : {
+    "id" : 47,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1976-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000044" : {
+    "id" : 44,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1986-11-25",
+    "totalAmount" : 10
+  },
+  "0000000000000045" : {
+    "id" : 45,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-12-14",
+    "totalAmount" : 10
+  }
+}
+2020-07-09 19:33:01 DEBUG App:46 - Creating a list of users
+2020-07-09 19:33:01 DEBUG App:38 - Writing text to file: {
+  "0000000000000042" : {
+    "id" : 42,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1966-09-03",
+    "totalAmount" : 10
+  },
+  "0000000000000043" : {
+    "id" : 43,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1984-09-25",
+    "totalAmount" : 10
+  },
+  "0000000000000040" : {
+    "id" : 40,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "2000-07-03",
+    "totalAmount" : 10
+  },
+  "0000000000000041" : {
+    "id" : 41,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1992-10-02",
+    "totalAmount" : 10
+  },
+  "0000000000000039" : {
+    "id" : 39,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1994-03-19",
+    "totalAmount" : 10
+  },
+  "0000000000000037" : {
+    "id" : 37,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1988-06-21",
+    "totalAmount" : 10
+  },
+  "0000000000000038" : {
+    "id" : 38,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1990-01-25",
+    "totalAmount" : 10
+  },
+  "0000000000000035" : {
+    "id" : 35,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1967-03-10",
+    "totalAmount" : 10
+  },
+  "0000000000000036" : {
+    "id" : 36,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1984-02-07",
+    "totalAmount" : 10
+  },
+  "0000000000000033" : {
+    "id" : 33,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1963-06-13",
+    "totalAmount" : 10
+  },
+  "0000000000000034" : {
+    "id" : 34,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1975-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000031" : {
+    "id" : 31,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1992-05-16",
+    "totalAmount" : 10
+  },
+  "0000000000000032" : {
+    "id" : 32,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1972-08-13",
+    "totalAmount" : 10
+  },
+  "0000000000000030" : {
+    "id" : 30,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1984-03-24",
+    "totalAmount" : 10
+  },
+  "0000000000000028" : {
+    "id" : 28,
+    "firstName" : "Florin",
+    "lastName" : "Popa",
+    "birthday" : "1959-09-28",
+    "totalAmount" : 10
+  },
+  "0000000000000029" : {
+    "id" : 29,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1970-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000026" : {
+    "id" : 26,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1966-05-05",
+    "totalAmount" : 10
+  },
+  "0000000000000027" : {
+    "id" : 27,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "2000-03-05",
+    "totalAmount" : 10
+  },
+  "0000000000000024" : {
+    "id" : 24,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1969-10-16",
+    "totalAmount" : 10
+  },
+  "0000000000000025" : {
+    "id" : 25,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "1962-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000022" : {
+    "id" : 22,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1998-09-09",
+    "totalAmount" : 10
+  },
+  "0000000000000023" : {
+    "id" : 23,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1984-01-02",
+    "totalAmount" : 10
+  },
+  "0000000000000020" : {
+    "id" : 20,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1967-07-28",
+    "totalAmount" : 10
+  },
+  "0000000000000021" : {
+    "id" : 21,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1969-11-17",
+    "totalAmount" : 10
+  },
+  "0000000000000017" : {
+    "id" : 17,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1972-08-26",
+    "totalAmount" : 10
+  },
+  "0000000000000018" : {
+    "id" : 18,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1957-10-24",
+    "totalAmount" : 10
+  },
+  "0000000000000015" : {
+    "id" : 15,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1991-01-05",
+    "totalAmount" : 10
+  },
+  "0000000000000016" : {
+    "id" : 16,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1976-10-03",
+    "totalAmount" : 10
+  },
+  "0000000000000013" : {
+    "id" : 13,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1966-09-09",
+    "totalAmount" : 10
+  },
+  "0000000000000014" : {
+    "id" : 14,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1971-09-12",
+    "totalAmount" : 10
+  },
+  "0000000000000011" : {
+    "id" : 11,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1978-01-08",
+    "totalAmount" : 10
+  },
+  "0000000000000099" : {
+    "id" : 99,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1975-04-17",
+    "totalAmount" : 10
+  },
+  "0000000000000012" : {
+    "id" : 12,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1975-05-25",
+    "totalAmount" : 10
+  },
+  "0000000000000019" : {
+    "id" : 19,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1978-04-11",
+    "totalAmount" : 10
+  },
+  "0000000000000090" : {
+    "id" : 90,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1984-07-07",
+    "totalAmount" : 10
+  },
+  "0000000000000097" : {
+    "id" : 97,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-09-19",
+    "totalAmount" : 10
+  },
+  "0000000000000010" : {
+    "id" : 10,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1989-04-14",
+    "totalAmount" : 10
+  },
+  "0000000000000098" : {
+    "id" : 98,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1970-02-06",
+    "totalAmount" : 10
+  },
+  "0000000000000095" : {
+    "id" : 95,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1959-10-06",
+    "totalAmount" : 10
+  },
+  "0000000000000096" : {
+    "id" : 96,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1961-05-17",
+    "totalAmount" : 10
+  },
+  "0000000000000093" : {
+    "id" : 93,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1957-10-30",
+    "totalAmount" : 10
+  },
+  "0000000000000094" : {
+    "id" : 94,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1994-04-20",
+    "totalAmount" : 10
+  },
+  "0000000000000091" : {
+    "id" : 91,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1989-06-15",
+    "totalAmount" : 10
+  },
+  "0000000000000092" : {
+    "id" : 92,
+    "firstName" : "Andreea",
+    "lastName" : "Gheorghe",
+    "birthday" : "1979-03-24",
+    "totalAmount" : 10
+  },
+  "0000000000000006" : {
+    "id" : 6,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1957-03-15",
+    "totalAmount" : 10
+  },
+  "0000000000000007" : {
+    "id" : 7,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1976-06-21",
+    "totalAmount" : 10
+  },
+  "0000000000000004" : {
+    "id" : 4,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1960-08-14",
+    "totalAmount" : 10
+  },
+  "0000000000000005" : {
+    "id" : 5,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1965-12-27",
+    "totalAmount" : 10
+  },
+  "0000000000000002" : {
+    "id" : 2,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1961-12-20",
+    "totalAmount" : 10
+  },
+  "0000000000000003" : {
+    "id" : 3,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1981-05-29",
+    "totalAmount" : 10
+  },
+  "0000000000000088" : {
+    "id" : 88,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1986-11-22",
+    "totalAmount" : 10
+  },
+  "0000000000000001" : {
+    "id" : 1,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1959-01-28",
+    "totalAmount" : 10
+  },
+  "0000000000000089" : {
+    "id" : 89,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1999-01-30",
+    "totalAmount" : 10
+  },
+  "0000000000000008" : {
+    "id" : 8,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1960-01-09",
+    "totalAmount" : 10
+  },
+  "0000000000000009" : {
+    "id" : 9,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1983-08-09",
+    "totalAmount" : 10
+  },
+  "0000000000000086" : {
+    "id" : 86,
+    "firstName" : "Andrei",
+    "lastName" : "Iconaru",
+    "birthday" : "1978-12-24",
+    "totalAmount" : 10
+  },
+  "0000000000000087" : {
+    "id" : 87,
+    "firstName" : "Florin",
+    "lastName" : "Gheorghe",
+    "birthday" : "1991-05-21",
+    "totalAmount" : 10
+  },
+  "0000000000000084" : {
+    "id" : 84,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1973-09-27",
+    "totalAmount" : 10
+  },
+  "0000000000000085" : {
+    "id" : 85,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1976-10-24",
+    "totalAmount" : 10
+  },
+  "0000000000000082" : {
+    "id" : 82,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1956-04-04",
+    "totalAmount" : 10
+  },
+  "0000000000000083" : {
+    "id" : 83,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1977-01-30",
+    "totalAmount" : 10
+  },
+  "0000000000000080" : {
+    "id" : 80,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1994-07-28",
+    "totalAmount" : 10
+  },
+  "0000000000000081" : {
+    "id" : 81,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1989-01-07",
+    "totalAmount" : 10
+  },
+  "0000000000000079" : {
+    "id" : 79,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1966-09-29",
+    "totalAmount" : 10
+  },
+  "0000000000000077" : {
+    "id" : 77,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1989-03-04",
+    "totalAmount" : 10
+  },
+  "0000000000000078" : {
+    "id" : 78,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1978-12-21",
+    "totalAmount" : 10
+  },
+  "0000000000000075" : {
+    "id" : 75,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1993-07-23",
+    "totalAmount" : 10
+  },
+  "0000000000000076" : {
+    "id" : 76,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1970-10-22",
+    "totalAmount" : 10
+  },
+  "0000000000000073" : {
+    "id" : 73,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1979-07-20",
+    "totalAmount" : 10
+  },
+  "0000000000000074" : {
+    "id" : 74,
+    "firstName" : "Andrei",
+    "lastName" : "Ilie",
+    "birthday" : "1997-05-26",
+    "totalAmount" : 10
+  },
+  "0000000000000071" : {
+    "id" : 71,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1992-11-01",
+    "totalAmount" : 10
+  },
+  "0000000000000072" : {
+    "id" : 72,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1968-12-22",
+    "totalAmount" : 10
+  },
+  "0000000000000070" : {
+    "id" : 70,
+    "firstName" : "Andreea",
+    "lastName" : "Ene",
+    "birthday" : "1967-02-25",
+    "totalAmount" : 10
+  },
+  "0000000000000068" : {
+    "id" : 68,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1967-08-07",
+    "totalAmount" : 10
+  },
+  "0000000000000069" : {
+    "id" : 69,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1985-04-03",
+    "totalAmount" : 10
+  },
+  "0000000000000066" : {
+    "id" : 66,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1977-07-31",
+    "totalAmount" : 10
+  },
+  "0000000000000067" : {
+    "id" : 67,
+    "firstName" : "Andrei",
+    "lastName" : "Ene",
+    "birthday" : "1965-12-18",
+    "totalAmount" : 10
+  },
+  "0000000000000100" : {
+    "id" : 100,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1963-10-30",
+    "totalAmount" : 10
+  },
+  "0000000000000064" : {
+    "id" : 64,
+    "firstName" : "Andreea",
+    "lastName" : "Vasile",
+    "birthday" : "1956-08-24",
+    "totalAmount" : 10
+  },
+  "0000000000000065" : {
+    "id" : 65,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1989-10-17",
+    "totalAmount" : 10
+  },
+  "0000000000000062" : {
+    "id" : 62,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1997-07-13",
+    "totalAmount" : 10
+  },
+  "0000000000000063" : {
+    "id" : 63,
+    "firstName" : "Florin",
+    "lastName" : "Ilie",
+    "birthday" : "1985-01-08",
+    "totalAmount" : 10
+  },
+  "0000000000000060" : {
+    "id" : 60,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1973-10-19",
+    "totalAmount" : 10
+  },
+  "0000000000000061" : {
+    "id" : 61,
+    "firstName" : "Alex",
+    "lastName" : "Gheorghe",
+    "birthday" : "1958-08-30",
+    "totalAmount" : 10
+  },
+  "0000000000000059" : {
+    "id" : 59,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1966-10-14",
+    "totalAmount" : 10
+  },
+  "0000000000000057" : {
+    "id" : 57,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1986-05-31",
+    "totalAmount" : 10
+  },
+  "0000000000000058" : {
+    "id" : 58,
+    "firstName" : "Andreea",
+    "lastName" : "Ilie",
+    "birthday" : "1997-02-13",
+    "totalAmount" : 10
+  },
+  "0000000000000055" : {
+    "id" : 55,
+    "firstName" : "Alex",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-05-05",
+    "totalAmount" : 10
+  },
+  "0000000000000056" : {
+    "id" : 56,
+    "firstName" : "Alex",
+    "lastName" : "Ene",
+    "birthday" : "1967-03-14",
+    "totalAmount" : 10
+  },
+  "0000000000000053" : {
+    "id" : 53,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1957-06-27",
+    "totalAmount" : 10
+  },
+  "0000000000000054" : {
+    "id" : 54,
+    "firstName" : "Florin",
+    "lastName" : "Iconaru",
+    "birthday" : "1994-04-09",
+    "totalAmount" : 10
+  },
+  "0000000000000051" : {
+    "id" : 51,
+    "firstName" : "Florin",
+    "lastName" : "Vasile",
+    "birthday" : "1982-12-14",
+    "totalAmount" : 10
+  },
+  "0000000000000052" : {
+    "id" : 52,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1970-03-15",
+    "totalAmount" : 10
+  },
+  "0000000000000050" : {
+    "id" : 50,
+    "firstName" : "Alex",
+    "lastName" : "Vasile",
+    "birthday" : "1999-05-26",
+    "totalAmount" : 10
+  },
+  "0000000000000048" : {
+    "id" : 48,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1973-08-23",
+    "totalAmount" : 10
+  },
+  "0000000000000049" : {
+    "id" : 49,
+    "firstName" : "Andrei",
+    "lastName" : "Vasile",
+    "birthday" : "1973-10-16",
+    "totalAmount" : 10
+  },
+  "0000000000000046" : {
+    "id" : 46,
+    "firstName" : "Andrei",
+    "lastName" : "Gheorghe",
+    "birthday" : "1976-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000047" : {
+    "id" : 47,
+    "firstName" : "Andreea",
+    "lastName" : "Popa",
+    "birthday" : "1976-12-01",
+    "totalAmount" : 10
+  },
+  "0000000000000044" : {
+    "id" : 44,
+    "firstName" : "Alex",
+    "lastName" : "Ilie",
+    "birthday" : "1986-11-25",
+    "totalAmount" : 10
+  },
+  "0000000000000045" : {
+    "id" : 45,
+    "firstName" : "Andreea",
+    "lastName" : "Iconaru",
+    "birthday" : "1988-12-14",
+    "totalAmount" : 10
+  }
+}

@@ -9,14 +9,12 @@ import ro.management.services.Utils;
  * Hello world!
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-    	final Logger logger = LogManager.getLogger(App.class);
-    	
-    	logger.debug("Started the debug text file", Utils.generateUsers(5));
-    	
-        System.out.println("IMPLEMENTED USERMANAGEMENT JAR FILE");
-    }
+public class App {
+	public static void main(String[] args) {
+		final Logger logger = LogManager.getLogger(App.class);
+
+		logger.debug("Implemented log4j");
+		System.out.println("IMPLEMENTED USERMANAGEMENT JAR FILE");
+		logger.debug("Implemented log4j again");
+	}
 }

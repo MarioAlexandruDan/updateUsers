@@ -1,1 +1,2 @@
-2020-07-09 19:14:37 DEBUG App:18 - Started the debug text file
+2020-07-09 19:33:10 DEBUG App:18 - Implemented log4j
+2020-07-09 19:33:10 DEBUG App:20 - Implemented log4j again
