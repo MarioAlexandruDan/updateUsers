@@ -1,12 +1,10 @@
-package ro.internship.services;
-import static org.junit.Assert.*;
+package ro.management.classes;
 
-import ro.management.classes.*;
-import org.junit.Before;
-import org.junit.Test;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Order;
-import org.junit.jupiter.api.TestMethodOrder;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
 
 public class UserTest {
 

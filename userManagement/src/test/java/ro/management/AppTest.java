@@ -3,6 +3,7 @@ package ro.management;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import ro.management.AppTest;
 
 /**
  * Unit test for simple App.
