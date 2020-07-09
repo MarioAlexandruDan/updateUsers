@@ -30,7 +30,7 @@ public class FileProcessor {
     }
   }
 
-  public static String readStringFromFIle() {
+  public static String readStringFromFile() {
 
     StringBuilder contentBuilder = new StringBuilder();
 

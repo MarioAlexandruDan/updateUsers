@@ -57,7 +57,7 @@ public class UserStorage {
 
   public static void loadStorage() {
 
-    String fileContent = FileProcessor.readStringFromFIle();
+    String fileContent = FileProcessor.readStringFromFile();
 
     ObjectMapper objectMapper = new ObjectMapper();
     try {
