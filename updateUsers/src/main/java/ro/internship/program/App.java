@@ -46,9 +46,9 @@ public class App {
 		return updateId++;
 	}
 
-	public synchronized static void incrementUpdateId() {
+	public synchronized static void incrementUpdateId(int increment) {
 
-		updateId++;
+		id = id + 1;
 	}
 
 	public synchronized static int getUpdateId() {

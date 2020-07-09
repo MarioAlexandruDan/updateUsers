@@ -19,7 +19,7 @@ public class ThreadReader extends Thread{
 		} catch (Exception e) {
 //			System.out.println("================== ERROR ==================");
 //			System.out.println(e.getMessage());
-			e.getStackTrace();
+			e.printStackTrace();
 		}
 	}
 
