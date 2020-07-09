@@ -1,4 +1,4 @@
-package ro.internship.storage;
+package ro.management.storage;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -8,11 +8,11 @@ import java.util.Map.Entry;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import ro.internship.classes.User;
-import ro.internship.services.FileProcessor;
-import ro.internship.services.Utils;
+import ro.management.classes.User;
+import ro.management.services.FileProcessor;
+import ro.management.services.Utils;
 
-public class DataStorage {
+public class UserStorage {
 
   private static volatile Map<String, User> userStorage = new HashMap<String, User>();
 
@@ -71,7 +71,8 @@ public class DataStorage {
     }
   }
 
-  private static void printMap(String idToFind) {
+  @SuppressWarnings("unused")
+private static void printMap(String idToFind) {
 
     Iterator<Entry<String, User>> it = userStorage.entrySet().iterator();
 

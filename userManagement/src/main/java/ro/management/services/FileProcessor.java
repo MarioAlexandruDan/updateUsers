@@ -1,4 +1,4 @@
-package ro.internship.services;
+package ro.management.services;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -14,7 +14,6 @@ public class FileProcessor {
 
   public static void writeStringToFile(String textToWrite) {
 
-    // actually printing to the file;
     PrintWriter pw;
     try {
 

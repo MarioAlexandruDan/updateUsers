@@ -1,14 +1,14 @@
 package ro.internship.services;
 
-import ro.internship.classes.User;
-import ro.internship.storage.DataStorage;
+import ro.management.classes.User;
+import ro.management.storage.UserStorage;
 
 public class Transactions {
 
   public static synchronized void updateUserBalance(Integer userId, Integer amountToIncrement) {
 
-    User user = DataStorage.getRecord(userId);
+    User user = UserStorage.getRecord(userId);
     user.setTotalAmount(user.getTotalAmount() + amountToIncrement);
-    DataStorage.setRecord(user);
+    UserStorage.setRecord(user);
   }
 }

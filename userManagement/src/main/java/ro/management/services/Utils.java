@@ -1,11 +1,11 @@
-package ro.internship.services;
+package ro.management.services;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.List;
-import ro.internship.classes.User;
+import ro.management.classes.User;
 
 public class Utils {
 

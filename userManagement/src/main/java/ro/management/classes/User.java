@@ -1,4 +1,4 @@
-package ro.internship.classes;
+package ro.management.classes;
 
 public class User {
 
@@ -74,12 +74,11 @@ public class User {
 
     return "\""
         + this.id
-        + "\""
-        + ":{\"firstName\":"
+        + "\":{\"firstName\":\""
         + this.firstName
-        + ",\"lastName\":"
+        + "\",\"lastName\":\""
         + this.lastName
-        + ",\"birthday\":"
+        + "\",\"birthday\":"
         + this.birthday
         + ",\"count\":"
         + this.totalAmount

@@ -6,8 +6,6 @@ import java.util.Map;
 
 import org.junit.Test;
 
-import ro.internship.classes.User;
-
 public class GenerateUsersTest {
 
 //    @Test

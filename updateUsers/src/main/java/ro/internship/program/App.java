@@ -1,23 +1,20 @@
 package ro.internship.program;
 
-import java.util.List;
-import ro.internship.classes.User;
 import ro.internship.services.ThreadUserUpdate;
-import ro.internship.services.Utils;
-import ro.internship.storage.DataStorage;
+import ro.management.storage.UserStorage;
 
 public class App {
 
   public static void main(String[] args) throws InterruptedException {
 
     // Load storage at app start
-    DataStorage.loadStorage();
+    UserStorage.loadStorage();
 
     // create users
-    //    List<User> myInitialData = Utils.generateUsers(5);
-    //    for (User user : myInitialData) {
-    //      DataStorage.setRecord(user);
-    //    }
+//        List<User> myInitialData = Utils.generateUsers(5);
+//        for (User user : myInitialData) {
+//          UserStorage.setRecord(user);
+//        }
 
     // start the game
     Thread t1 = new ThreadUserUpdate(1, 5);
@@ -30,6 +27,6 @@ public class App {
     Thread.sleep(1000);
 
     //
-    DataStorage.saveStorage();
+    UserStorage.saveStorage();
   }
 }
